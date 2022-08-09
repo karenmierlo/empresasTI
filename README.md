@@ -4,7 +4,7 @@ Alice dos Santos Mellies, Christiane Fabíola Momm, Fernando Oliveira da Rosa, K
 
 Prof. Orientador: Adriano Machado.
 
-Objetivo: Apresentar informações sobre os benefícios que as empresas de TI disponibilizam aos seus colaboradores. Fornecer um dashboard com informações manipuláveis das principais empresas investidoras do Entra21 e os benefícios oferecidos aos seus colaboradores.
+Objetivo: (Apresentar informações sobre os benefícios que as empresas de TI disponibilizam aos seus colaboradores). Fornecer um dashboard com informações manipuláveis das principais empresas investidoras do Entra21 e os benefícios oferecidos aos seus colaboradores.
 
 **Reunião 02/08/2022 - Sprint01**
 1) Definição do projeto a ser executado: Apresentar (e analisar) os dados relativos aos benefícios das Empresas de TI para os seus colaboradores.
