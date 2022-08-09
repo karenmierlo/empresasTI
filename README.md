@@ -1,6 +1,6 @@
 # empresasTI
 Repositório do trabalho desenvolvido no curso de Análise de Dados do Programa ENTRA21, turma 2022,pelos integrantes do Grupo 03: 
-Alice Mellies dos Santos, Christiane Fabíola Momm, Fernando Oliveira da Rosa, Karen Godoi van Mierlo, Saymon Sombra, Tailaine Lemes.
+Alice Mellies dos Santos, Christiane Fabíola Momm, Fernando Oliveira da Rosa, Karen Godoi van Mierlo, Saymon Luciano Casas, Tailaine Lemes.
 
 Prof. Orientador: Adriano Machado.
 
@@ -13,4 +13,4 @@ Objetivo: Apresentar informações sobre os benefícios que as empresas de TI di
 4) Linguagens: Python e Sqlite.
 ** Bibliotecas: a definir
 
-Reunião de 04/08: definir *P.O., Scrum Master, Developers team (Front End, Back End, Deploy)*.
+Reunião 09/08: definir *P.O., Scrum Master, Developers team (Front End, Back End, Deploy)*.
