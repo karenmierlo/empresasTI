@@ -27,4 +27,4 @@ Gerar a base bruta para jogar na nuvem
 Resultado: Dump da base real (sql)
 
 2ª fase: (front end)
-Uso da ferramenta PowerBi, Data Studio ou outra e demonstrar as informações de modo que o usuário possa gerar as informações do seu interesse.
+Uso da ferramenta PowerBi, Data Studio ou High Charts outra e demonstrar as informações de modo que o usuário possa analisar as informações do seu interesse.
