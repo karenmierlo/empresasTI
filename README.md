@@ -4,27 +4,28 @@ Alice dos Santos Mellies, Christiane Fabíola Momm, Fernando Oliveira da Rosa, K
 
 Prof. Orientador: Adriano Machado.
 Orientações:
-1ª fase - compreensão dos dados
-2ª fase - exposição dos dados
+# 1ª fase - compreensão dos dados
+## 2ª fase - exposição dos dados
 
-Objetivo: Fornecer um dashboard com informações manipuláveis das principais empresas investidoras do Entra21 e os benefícios oferecidos aos seus futuros colaboradores.
+**Objetivo**: Fornecer um dashboard com informações manipuláveis das principais empresas investidoras do Entra21 e os benefícios oferecidos aos seus futuros colaboradores.
 
 **Reunião 02/08/2022 - Sprint01**
-1) Definição do projeto a ser executado: Apresentar (e analisar) os dados relativos aos benefícios das Empresas de TI para os seus colaboradores.
-2) Elaboração da base de dados a partir das informações disponíveis nos sites das empresas.
-3) Coleta de dados: benefícios, salário estimado e outros *a definir* (local, vagas e área da vaga, tipo de vaga, requisitos, segmento/ramo).
-4) Linguagens: Python e Sqlite.
-** Bibliotecas: a definir
+# 1) Definição do projeto a ser executado: Apresentar (e analisar) os dados relativos aos benefícios das Empresas de TI para os seus colaboradores.
+## 2) Elaboração da base de dados a partir das informações disponíveis nos sites das empresas.
+### 3) Coleta de dados: benefícios, salário estimado e outros *a definir* (local, vagas e área da vaga, tipo de vaga, requisitos, segmento/ramo).
+#### 4) Linguagens: Python e Sqlite.
+**Bibliotecas: a definir*
 
-Reunião 09/08: *definir *P.O., Scrum Master, Developers team (Front End, Back End, Deploy)*.
-Etapas:1ª fase (back end)
-Coleta dos dados: Acessar os dados das empresas e verificar o uso do webscraping.
-**Diagrama de entidades e relacionamentos**
-Criar a base de dados 
-Popular a base de dados
-Em equipe analisar as informações úteis da base elaborada.
-Gerar a base bruta para jogar na nuvem
-Resultado: Dump da base real (sql)
+*Reunião 09/08: *definir *P.O., Scrum Master, Developers team (Front End, Back End, Deploy)*.
+Etapas:
+# 1ª fase (back end)
+- Coleta dos dados: Acessar os dados das empresas e verificar o uso do webscraping.
+- **Diagrama de entidades e relacionamentos**
+- Criar a base de dados 
+- Popular a base de dados
+- Em equipe, analisar as informações úteis da base elaborada.
+- Gerar a base bruta para jogar na nuvem
+**Resultado: Dump da base real (sql)**.
 
-2ª fase: (front end)
-Uso da ferramenta PowerBi, Data Studio ou High Charts outra e demonstrar as informações de modo que o usuário possa analisar as informações do seu interesse.
+## 2ª fase: (front end)
+Uso da ferramenta *PowerBi, Data Studio ou High Charts* e demonstrar as informações de modo que o usuário possa analisar aquelas que são do seu interesse.
