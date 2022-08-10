@@ -10,10 +10,10 @@ Prof. Orientador: Adriano Machado.
 **Objetivo**: Fornecer um dashboard com informações manipuláveis das principais empresas investidoras do Entra21 e os benefícios oferecidos aos seus futuros colaboradores.
 
 **Reunião 02/08/2022 - Sprint01**
-# 1) Definição do projeto a ser executado: Apresentar (e analisar) os dados relativos aos benefícios das Empresas de TI para os seus colaboradores.
-# 2) Elaboração da base de dados a partir das informações disponíveis nos sites das empresas.
-# 3) Coleta de dados: benefícios, salário estimado e outros *a definir* (local, vagas e área da vaga, tipo de vaga, requisitos, segmento/ramo).
-# 4) Linguagens: Python e Sqlite.
+1) Definição do projeto a ser executado: Apresentar (e analisar) os dados relativos aos benefícios das Empresas de TI para os seus colaboradores.
+2) Elaboração da base de dados a partir das informações disponíveis nos sites das empresas.
+3) Coleta de dados: benefícios, salário estimado e outros *a definir* (local, vagas e área da vaga, tipo de vaga, requisitos, segmento/ramo).
+4) Linguagens: Python e Sqlite.
 **Bibliotecas: a definir*
 
 *Reunião 09/08: *definir *P.O., Scrum Master, Developers team (Front End, Back End, Deploy)*.
