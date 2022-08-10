@@ -7,7 +7,7 @@ Prof. Orientador: Adriano Machado.
 # 1ª fase - compreensão dos dados
 # 2ª fase - exposição dos dados
 
-**Objetivo**: Fornecer um dashboard com informações manipuláveis das principais empresas investidoras do Entra21 e os benefícios oferecidos aos seus futuros colaboradores.
+**Objetivo**: Fornecer um dashboard com informações manipuláveis das principais empresas investidoras de um Programa de Formação na área de TI e os benefícios oferecidos aos seus futuros colaboradores.
 
 **Reunião 02/08/2022 - Sprint01**
 1) Definição do projeto a ser executado: Apresentar (e analisar) os dados relativos aos benefícios das Empresas de TI para os seus colaboradores.
