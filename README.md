@@ -30,3 +30,16 @@ Prof. Orientador: Adriano Machado.
 # 2ª fase: (front end)
 - Uso da ferramenta *PowerBi, Data Studio ou High Charts*; e, 
 - Demonstrar as informações de modo que o usuário possa analisar aquelas que são do seu interesse.
+
+## Empresas Pesquisadas:
+- SQL Inc.
+- Python Technologies
+- Cobol System
+- C# Company
+- Assembly Software
+- Web S.A
+- R Developments
+- Fortran Old S.A
+- HTML Corporation
+- Typescript LLC
+- Java Works
