@@ -6,21 +6,34 @@ Product Owner: define interesses de todos os envolvidos (Stakeholders), define a
 
 **Divisão das Sprints:**
 *Sprint 1* - 01/08 a 05/08:
+
 *Sprint 2* - 08/08 a 12/08:
+
 *Sprint 3* - 15/08 a 19/08:
+
 *Sprint 4* - 22/08 a 26/08:
+
 *Sprint 5* - 29/08 a 02/09:
+
 *Sprint 6* - 12/09 a 16/09:
+
 *Sprint 7* - 19/09 a 23/09:
+
 *Sprint 8* - 26/09 a 30/09:
+
 *Sprint 9* - 03/10 a 07/10:
+
 *Sprint 10* - 10/10 a 14/10:
+
 
 **Backlog do Produto:**
 *Sprint 1*
 TO DO
+
 DOING
+
 DONE
+
 
 Início das reuniões responder:
 1. O que fizemos no último encontro?
