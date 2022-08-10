@@ -1,4 +1,6 @@
-Product Owner: define interesses de todos os envolvidos (Stakeholders), define as funcionalidades do produto e prioriza os itens de Product Backlog.
+**#Diário do Product Owner*
+
+Qual é a função: definir interesses de todos os envolvidos (Stakeholders), funcionalidades do produto e priorizar os itens de Product Backlog.
 
 **Funcionalidade do produto:** 
 - *Candidatos:* permitir a identificação dos benefícios mais comuns nas empresas da área de TI e como são as vagas
