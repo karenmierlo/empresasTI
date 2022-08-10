@@ -9,6 +9,7 @@ Função: definir interesses de todos os envolvidos (Stakeholders), funcionalida
 
 
 **Divisão das Sprints:**
+
 *Sprint 1* - 01/08 a 05/08:
 
 *Sprint 2* - 08/08 a 12/08:
