@@ -14,7 +14,7 @@ Prof. Orientador: Adriano Machado.
 2) Elaboração da base de dados a partir das informações disponíveis nos sites das empresas.
 3) Coleta de dados: benefícios, salário estimado e outros *a definir* (local, vagas e área da vaga, tipo de vaga, requisitos, segmento/ramo).
 4) Linguagens: Python e Sqlite.
-**Bibliotecas: a definir*
+5) Bibliotecas: Pandas.
 
 *Reunião 09/08: *definir *P.O., Scrum Master, Developers team (Front End, Back End, Deploy)*.
 - Etapas:
