@@ -1,4 +1,4 @@
-**#Diário do Product Owner*
+# **Diário do Product Owner*
 
 Qual é a função: definir interesses de todos os envolvidos (Stakeholders), funcionalidades do produto e priorizar os itens de Product Backlog.
 
