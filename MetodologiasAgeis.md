@@ -1,10 +1,12 @@
-# **Diário do Product Owner*
+# **Diário do Product Owner :book: **
 
-Qual é a função: definir interesses de todos os envolvidos (Stakeholders), funcionalidades do produto e priorizar os itens de Product Backlog.
+Função: definir interesses de todos os envolvidos (Stakeholders), funcionalidades do produto e priorizar os itens de Product Backlog.
+
 
 **Funcionalidade do produto:** 
 - *Candidatos:* permitir a identificação dos benefícios mais comuns nas empresas da área de TI e como são as vagas
 - *Empresas:* permitir a análise dos benefícios que fornece em relação à outras empresas do ramo
+- 
 
 **Divisão das Sprints:**
 *Sprint 1* - 01/08 a 05/08:
@@ -29,7 +31,9 @@ Qual é a função: definir interesses de todos os envolvidos (Stakeholders), fu
 
 
 **Backlog do Produto:**
+
 *Sprint 1*
+
 TO DO
 
 DOING
@@ -41,6 +45,7 @@ Início das reuniões responder:
 1. O que fizemos no último encontro?
 2. O que faremos hoje?
 3. O que nos impede de continuar?
+
 
 11/08:
 
