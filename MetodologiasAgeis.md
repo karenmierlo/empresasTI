@@ -36,9 +36,11 @@ Início das reuniões responder:
 3. O que nos impede de continuar?
 
 **Responsabilidades**
+
 :warning: Isso é uma pré-agenda, somos uma equipe, e qualquer coisa, vamos conversar :woman_technologist::man_technologist::woman_technologist::man_technologist::woman_technologist: (<-- nosso time lindo :heavy_heart_exclamation:)
 
 *Tabela de Atribuições*
+
 |       | Alice, a antenada | Chris, the native | Fernando, o programador | Karen, a | Saymon, o sombra kk vamos mudar | Tai, a que tem uma rocha no :heart:
 |------------------- | ------------------- | ------------------- | ------------------- | ------------------- | ------------------- |
 |  Função S2 |  |  |  |  |  |
