@@ -37,13 +37,13 @@ Início das reuniões responder:
 
 **Responsabilidades**
 
-:warning: Isso é uma pré-agenda, somos uma equipe, e qualquer coisa, vamos conversar :woman_technologist::man_technologist::woman_technologist::man_technologist::woman_technologist: (<-- nosso time lindo :heavy_heart_exclamation:)
+:warning: Sujeito à alterações, de acordo com as necessidades :woman_technologist::man_technologist::woman_technologist::man_technologist::woman_technologist: (nosso time lindo :heavy_heart_exclamation:)
 
 *Tabela de Atribuições*
 
-|---| Alice, a antenada | Chris, the native | Fernando, o programador | Karen, a | Saymon, o sombra kk vamos mudar | Tai, a que tem uma rocha no :heart:|
-|---|---|---|---|---|---|
-|Função S2|---|---|---|---|---|
+| --- | Alice, a antenada | Chris, the native | Fernando, o programador | Karen, a | Saymon, o sombra kk vamos mudar | Tai, a que tem uma rocha no :heart: |
+| --- | --- | --- | --- | --- | --- |
+| Função S2 | --- | --- | --- | --- | --- |
 
 **Backlog do Produto:**
 
