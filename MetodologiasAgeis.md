@@ -41,11 +41,11 @@ Início das reuniões responder:
 
 *Tabela de Atribuições*
 
+
 | --- | Alice, a antenada | Chris, the native | Fernando, o programador | Karen, a | Saymon, o sombra kk vamos mudar | Tai, a que tem uma rocha no :heart: |
+| --- | --- | --- | --- | --- | --- | --- |
+| Função S2 | --- | --- | --- | --- | --- | --- |
 
-| --- | --- | --- | --- | --- | --- |
-
-| Função S2 | --- | --- | --- | --- | --- |
 
 **Backlog do Produto:**
 
