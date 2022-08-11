@@ -42,7 +42,7 @@ Início das reuniões responder:
 *Tabela de Atribuições*
 
 
-| --- | Alice, a antenada | Chris, the native | Fernando, o programador | Karen, a | Saymon, o sombra kk vamos mudar | Tai, a que tem uma rocha no :heart: |
+| --- | Alice, a antenada | Chris, the native | Fernando, o programador | Karen, a | Saymon, o sombra | Tai, a que tem uma rocha no :heart: |
 | --- | --- | --- | --- | --- | --- | --- |
 | Função S2 | --- | --- | --- | --- | --- | --- |
 
