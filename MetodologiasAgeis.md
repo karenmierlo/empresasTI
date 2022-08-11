@@ -12,7 +12,7 @@ Função: definir interesses de todos os envolvidos (Stakeholders), funcionalida
 
 *Sprint 1* - 01/08 a 05/08: definição do tema
 
-*Sprint 2* - 08/08 a 12/08: definição da estrutura básica como as variáveis que serão coletadas; pré-organização do que será feito em cada sprint e das atividades que cada um será responsável.
+*Sprint 2* - 08/08 a 12/08: definição da estrutura básica como as variáveis que serão coletadas; pré-organização do que será feito em cada sprint e das atividades que cada um será responsável. (listar tudo que deve ser feito e então fazer prévia das datas)
 
 *Sprint 3* - 15/08 a 19/08:
 
@@ -30,7 +30,7 @@ Função: definir interesses de todos os envolvidos (Stakeholders), funcionalida
 
 *Sprint 10* - 10/10 a 14/10:
 
-Início das reuniões responder:
+Início das reuniões:
 1. O que fizemos no último encontro?
 2. O que faremos hoje?
 3. O que nos impede de continuar?
@@ -47,7 +47,7 @@ Início das reuniões responder:
 | Função S2 | --- | --- | --- | --- | --- | --- |
 
 
-**Backlog do Produto:**
+**Kanban**
 
 *Sprint 2*
 
