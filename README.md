@@ -1,14 +1,15 @@
 # empresasTI
 Repositório do trabalho desenvolvido no curso de Análise de Dados do Programa ENTRA21, turma 2022,pelos integrantes do Grupo 03: 
 
-- Alice dos Santos Mellies https://www.linkedin.com/in/alice-mellies-1352051bb/
-- Christiane Fabíola Momm https://www.linkedin.com/in/christiane-fab%C3%ADola-13688526/
-- Fernando Oliveira da Rosa https://www.linkedin.com/in/fernando-oliveira-da-rosa-800960151/
-- Karen Godoi van Mierlo https://www.linkedin.com/in/karen-godoi-van-mierlo-51a604207/
-- Saymon Luciano Casas https://www.linkedin.com/in/saymon-casas-84109620b/
-- Tailaine Lemes https://www.linkedin.com/in/tailaine-lemes-98435a22a/
-
-Prof. Orientador: Adriano Machado https://www.linkedin.com/in/xadrak/
+| Integrante | Linkedin |
+|---|---|
+| Alice dos Santos Mellies | <a href="https://www.linkedin.com/in/alice-mellies-1352051bb/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> |
+| Christiane Fabíola Momm| <a href="https://www.linkedin.com/in/christiane-fab%C3%ADola-13688526/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | 
+| Fernando Oliveira da Rosa | <a href="https://www.linkedin.com/in/fernando-oliveira-da-rosa-800960151/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | 
+| Karen Godoi van Mierlo | <a href="https://www.linkedin.com/in/karen-godoi-van-mierlo-51a604207/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> |
+| Saymon Luciano Casas | <a href="https://www.linkedin.com/in/saymon-casas-84109620b/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | 
+| Tailaine Lemes | <a href="https://www.linkedin.com/in/tailaine-lemes-98435a22a/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | 
+| Professor Adriano Machado | <a href="https://www.linkedin.com/in/xadrak/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> |
 
 - Orientações:
 # 1ª fase - compreensão dos dados
