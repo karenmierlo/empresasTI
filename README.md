@@ -1,6 +1,12 @@
 # empresasTI
 Repositório do trabalho desenvolvido no curso de Análise de Dados do Programa ENTRA21, turma 2022,pelos integrantes do Grupo 03: 
-Alice dos Santos Mellies, Christiane Fabíola Momm, Fernando Oliveira da Rosa, Karen Godoi van Mierlo, Saymon Luciano Casas, Tailaine Lemes.
+
+- Alice dos Santos Mellies https://www.linkedin.com/in/alice-mellies-1352051bb/
+- Christiane Fabíola Momm https://www.linkedin.com/in/christiane-fab%C3%ADola-13688526/
+- Fernando Oliveira da Rosa https://www.linkedin.com/in/fernando-oliveira-da-rosa-800960151/
+- Karen Godoi van Mierlo https://www.linkedin.com/in/karen-godoi-van-mierlo-51a604207/
+- Saymon Luciano Casas https://www.linkedin.com/in/saymon-casas-84109620b/
+- Tailaine Lemes https://www.linkedin.com/in/tailaine-lemes-98435a22a/
 
 Prof. Orientador: Adriano Machado.
 - Orientações:
