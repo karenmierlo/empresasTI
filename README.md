@@ -8,7 +8,8 @@ Repositório do trabalho desenvolvido no curso de Análise de Dados do Programa 
 - Saymon Luciano Casas https://www.linkedin.com/in/saymon-casas-84109620b/
 - Tailaine Lemes https://www.linkedin.com/in/tailaine-lemes-98435a22a/
 
-Prof. Orientador: Adriano Machado.
+Prof. Orientador: Adriano Machado https://www.linkedin.com/in/xadrak/
+
 - Orientações:
 # 1ª fase - compreensão dos dados
 # 2ª fase - exposição dos dados
