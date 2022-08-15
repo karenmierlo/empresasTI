@@ -1,7 +1,7 @@
 # empresasTI
 Repositório do trabalho desenvolvido no curso de Análise de Dados do Programa ENTRA21, turma 2022,pelos integrantes do Grupo 03: 
 
-<h3 align="center">
+<h5 align="center">
 
 | Integrante | Linkedin |
 |---|---|
@@ -13,7 +13,7 @@ Repositório do trabalho desenvolvido no curso de Análise de Dados do Programa 
 | Tailaine Lemes | <a href="https://www.linkedin.com/in/tailaine-lemes-98435a22a/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | 
 | Professor Adriano Machado | <a href="https://www.linkedin.com/in/xadrak/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> |
 
- </h3>
+ </h5>
   
 - Orientações:
 # 1ª fase - compreensão dos dados
