@@ -14,7 +14,7 @@ Função: definir interesses de todos os envolvidos (Stakeholders), funcionalida
 
 *Sprint 2* - 08/08 a 12/08: definição da estrutura básica como as variáveis que serão coletadas; pré-organização do que será feito em cada sprint e das atividades que cada um será responsável. (listar tudo que deve ser feito e então fazer prévia das datas)
 
-*Sprint 3* - 15/08 a 19/08:
+*Sprint 3* - 15/08 a 19/08: estrutura do banco de dados;
 
 *Sprint 4* - 22/08 a 26/08:
 
@@ -44,12 +44,12 @@ Início das reuniões:
 
 | --- | Alice, a antenada | Chris, the native | Fernando, o programador | Karen, a | Saymon, o sombra | Tai, a que tem uma rocha no :heart: |
 | --- | --- | --- | --- | --- | --- | --- |
-| Função S2 | --- | --- | --- | --- | --- | --- |
+| Função S3 | --- | --- | --- | --- | --- | --- |
 
 
 **Kanban**
 
-*Sprint 2*
+*Sprint 3*
 
 TO DO: fazer uma prévia das Sprints e do que cada um deve fazer
 
