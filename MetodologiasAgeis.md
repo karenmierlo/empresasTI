@@ -5,7 +5,7 @@ Função: definir interesses de todos os envolvidos (Stakeholders), funcionalida
 
 **Funcionalidade do produto:** 
 - *Candidatos:* permitir a identificação dos benefícios mais comuns nas empresas da área de TI e como são as vagas
-- *Empresas:* permitir a análise dos benefícios que fornece em relação à outras empresas do ramo
+- *Empresas:* entender quais são os benefícios mais bem vistos por potenciais candidatos, e os que realmente impactam na sua escolha
 
 
 **Divisão das Sprints:**
