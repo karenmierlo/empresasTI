@@ -12,23 +12,23 @@ Função: definir interesses de todos os envolvidos (Stakeholders), funcionalida
 
 *Sprint 1* - 01/08 a 05/08: definição do tema
 
-*Sprint 2* - 08/08 a 12/08: definição da estrutura básica como as variáveis que serão coletadas; pré-organização do que será feito em cada sprint e das atividades que cada um será responsável. (listar tudo que deve ser feito e então fazer prévia das datas)
+*Sprint 2* - 08/08 a 12/08: definição da estrutura básica como as variáveis que serão coletadas; pré-organização do que será feito em cada sprint e das atividades que cada um será responsável.
 
-*Sprint 3* - 15/08 a 19/08: estrutura do banco de dados;
+*Sprint 3* - 15/08 a 19/08: estrutura do banco de dados; construção das primeiras definições do projeto; definição das variáveis.
 
-*Sprint 4* - 22/08 a 26/08:
+*Sprint 4* - 22/08 a 26/08: coleta dos dados das empresas. construção do web scraping.
 
-*Sprint 5* - 29/08 a 02/09:
+*Sprint 5* - 29/08 a 02/09: estruturação dos dados das empresas no banco de dados. construção da dashboard das empresas.
 
-*Sprint 6* - 12/09 a 16/09:
+*Sprint 6* - 12/09 a 16/09: aplicação dos questionários aos candidatos. (que tal criar uma pergunta: após a análise da dashboard, 
 
-*Sprint 7* - 19/09 a 23/09:
+*Sprint 7* - 19/09 a 23/09: tratamento dos dados dos candidatos.
 
-*Sprint 8* - 26/09 a 30/09:
+*Sprint 8* - 26/09 a 30/09: construção da dashboard dos dados dos candidatos.
 
-*Sprint 9* - 03/10 a 07/10:
+*Sprint 9* - 03/10 a 07/10: construção de como será a apresentação: história do cliente.
 
-*Sprint 10* - 10/10 a 14/10:
+*Sprint 10* - 10/10 a 14/10: ajustes necessários; gravação do vídeo de apresentação.
 
 Início das reuniões:
 1. O que fizemos no último encontro?
@@ -43,8 +43,9 @@ Início das reuniões:
 
 
 | --- | Alice, a antenada | Chris, the native | Fernando, o programador | Karen, a | Saymon, o sombra | Tai, a que tem uma rocha no :heart: |
-| --- | --- | --- | --- | --- | --- | --- |
-| Função S3 | --- | --- | --- | --- | --- | --- |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Empresa responsável | SQL, Fortran | Python, HTML | Cobol | C#, Typesript | Assembly, Java | Web, R |
+| Construções da S3: | | | Diagramas | Variáveis | | |
 
 
 **Kanban**
@@ -59,7 +60,7 @@ DONE:
 
 11/08:
 
-**Apresentação**
+**Vídeo de Apresentação**
 
 - Conte uma história que prenda a atenção, comece com isso
 - Fale situações que as pessoas se identifiquem
