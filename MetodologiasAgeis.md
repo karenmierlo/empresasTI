@@ -45,7 +45,7 @@ Início das reuniões:
 | --- | Alice, a antenada | Chris, the native | Fernando, o programador | Karen, a | Saymon, o sombra | Tai, a que tem uma rocha no :heart: |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Empresa responsável | SQL, Fortran | Python, HTML | Cobol | C#, Typesript | Assembly, Java | Web, R |
-| Construções da S3: | | | Diagramas | Variáveis | | |
+| Construções da S4: | | Construção do Questionário | Diagramas | Distribuição das funções, Ajuste do Questionário | | |
 
 
 **Kanban**
