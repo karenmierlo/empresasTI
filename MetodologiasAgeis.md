@@ -70,3 +70,28 @@ DONE:
 **Referências**
 
 Fonte: https://www.trt9.jus.br/pds/Scrum/roles/product_owner_10E7BD3.html
+
+Palavras-chave:
+
+- Candidatos
+- Empresas âncoras
+- Benefícios
+- Vagas
+- Entra21
+- Análise de dados
+- Dashboard
+- Pandas
+- Python
+- MySql
+
+*Funcionalidade:
+Candidatos: permitir a identificação dos benefícios mais comuns nas empresas âncoras do Entra21.
+Empresas: entender como os candidatos enxergam as empresas e seus benefícios.
+
+*O que:
+- Disponibilizar os dados relativos aos benefícios das Empresas âncoras do ENTRA21 para os candidatos através de um infográfico. E coletar dados de como os candidatos enxergam as empresas e esses benefícios, mostrando através de um dashboard.
+
+*Como:
+- Coleta de informações nas páginas (públicas) que contém as listas de benefícios das empresas de TI.
+- Coleta de informações por meio de aplicação de formulário de pesquisa (via google forms) contendo 12 perguntas fechadas sobre o interesse/preferência dos alunos/candidatos do Entra21/2022.
+- Os dados serão salvos em nuvem e, posteriormente, importados para o Python via Pandas e o dashboard será apresentado com o Data Studio, o que permitirá as consultas pelas empresas âncoras e pelos alunos/candidatos do Entra21.
