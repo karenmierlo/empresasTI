@@ -45,7 +45,8 @@ Início das reuniões:
 | --- | Alice, a antenada | Chris, the native | Fernando, o programador | Karen, a | Saymon, o sombra | Tai, a que tem uma rocha no :heart: |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Empresa responsável | SQL, Fortran | Python, HTML | Cobol | C#, Typesript | Assembly, Java | Web, R |
-| Construções da S4: | | Construção do Questionário | Diagramas | Distribuição das funções, Ajuste do Questionário | | |
+| Atividades realizadas ✅ | Coleta dos benefícios das empresas | Coleta dos benefícios das empresas, Construção do Questionário | Diagrama, Coleta dos benefícios das empresas | Distribuição das funções | Coleta dos benefícios das empresas | |
+| Atividades a serem realizadas ⚠ | Construção dos infográficos dos benefícios | Verificação das informações no Linkedin | Webscrapping do Linkedin, Construção do código e envio para nuvem | Coleta dos benefícios das empresas, Ajuste do Questionário  | | Coleta dos benefícios das empresas |
 
 
 **Kanban**
