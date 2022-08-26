@@ -2,10 +2,22 @@
 
 Função: definir interesses de todos os envolvidos (Stakeholders), funcionalidades do produto e priorizar os itens de Product Backlog.
 
+**Funcionalidade**
+Candidatos: permitir a identificação dos benefícios mais comuns nas empresas âncoras do Entra21.
+Empresas: entender como os candidatos enxergam as empresas e seus benefícios.
 
-**Funcionalidade do produto:** 
-- *Candidatos:* permitir a identificação dos benefícios mais comuns nas empresas da área de TI e como são as vagas
-- *Empresas:* entender quais são os benefícios mais bem vistos por potenciais candidatos (e o seu perfil)
+**Responsabilidades**
+
+:warning: Sujeito à alterações, de acordo com as necessidades :woman_technologist::man_technologist::woman_technologist::man_technologist::woman_technologist: (nosso time lindo :heavy_heart_exclamation:)
+
+*Tabela de Atribuições*
+
+
+| --- | Alice, a antenada | Chris, the native | Fernando, o programador | Karen, a | Saymon, o sombra | Tai, a que tem uma rocha no :heart: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Empresa responsável | SQL, Fortran | Python, HTML | Cobol | C#, Typesript | Assembly, Java | Web, R |
+| Atividades realizadas ✅ | Coleta dos benefícios das empresas | Coleta dos benefícios das empresas, Construção do Questionário | Diagrama, Coleta dos benefícios das empresas | Coleta dos benefícios das empresas, Distribuição das funções | Coleta dos benefícios das empresas | |
+| Atividades a serem realizadas ⚠ | Construção dos infográficos dos benefícios | Verificação das informações no Linkedin | Webscrapping do Linkedin, Construção do código e envio para nuvem | Ajuste do Questionário, Montagem do script da gravação  | | Coleta dos benefícios das empresas |
 
 
 **Divisão das Sprints:**
@@ -35,32 +47,6 @@ Início das reuniões:
 2. O que faremos hoje?
 3. O que nos impede de continuar?
 
-**Responsabilidades**
-
-:warning: Sujeito à alterações, de acordo com as necessidades :woman_technologist::man_technologist::woman_technologist::man_technologist::woman_technologist: (nosso time lindo :heavy_heart_exclamation:)
-
-*Tabela de Atribuições*
-
-
-| --- | Alice, a antenada | Chris, the native | Fernando, o programador | Karen, a | Saymon, o sombra | Tai, a que tem uma rocha no :heart: |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Empresa responsável | SQL, Fortran | Python, HTML | Cobol | C#, Typesript | Assembly, Java | Web, R |
-| Atividades realizadas ✅ | Coleta dos benefícios das empresas | Coleta dos benefícios das empresas, Construção do Questionário | Diagrama, Coleta dos benefícios das empresas | Distribuição das funções | Coleta dos benefícios das empresas | |
-| Atividades a serem realizadas ⚠ | Construção dos infográficos dos benefícios | Verificação das informações no Linkedin | Webscrapping do Linkedin, Construção do código e envio para nuvem | Coleta dos benefícios das empresas, Ajuste do Questionário, Montagem do script da gravação  | | Coleta dos benefícios das empresas |
-
-
-**Kanban**
-
-*Sprint 3*
-
-TO DO: fazer uma prévia das Sprints e do que cada um deve fazer
-
-DOING: definição das variáveis
-
-DONE:
-
-11/08:
-
 **Vídeo de Apresentação**
 
 - Conte uma história que prenda a atenção, comece com isso
@@ -84,10 +70,6 @@ Palavras-chave:
 - Pandas
 - Python
 - MySql
-
-*Funcionalidade:
-Candidatos: permitir a identificação dos benefícios mais comuns nas empresas âncoras do Entra21.
-Empresas: entender como os candidatos enxergam as empresas e seus benefícios.
 
 *O que:
 - Disponibilizar os dados relativos aos benefícios das Empresas âncoras do ENTRA21 para os candidatos através de um infográfico. E coletar dados de como os candidatos enxergam as empresas e esses benefícios, mostrando através de um dashboard.
