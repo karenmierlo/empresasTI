@@ -32,7 +32,7 @@ Empresas: entender como os candidatos enxergam as empresas e seus benefícios.
 
 *Sprint 5* - 29/08 a 02/09: estruturação dos dados das empresas no banco de dados. construção da dashboard das empresas.
 
-*Sprint 6* - 12/09 a 16/09: aplicação dos questionários aos candidatos. (que tal criar uma pergunta: após a análise da dashboard, 
+*Sprint 6* - 12/09 a 16/09: aplicação dos questionários aos candidatos. 
 
 *Sprint 7* - 19/09 a 23/09: tratamento dos dados dos candidatos.
 
