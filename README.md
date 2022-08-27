@@ -29,6 +29,9 @@ Repositório do trabalho desenvolvido no curso de Análise de Dados do Programa 
 5) Bibliotecas: Pandas.
 
 *Reunião 09/08: *definir *P.O., Scrum Master, Developers team (Front End, Back End, Deploy)*.
+
+*Reunião 26/08: *Orientação do Prof. Adriano sobre apresentação e etapas a serem consideradas. Base disponibilizada na nuvem (MySQL) com dashboards gerados via Data Studio. 
+
 - Etapas:
 # 1ª fase (back end)
 - Coleta dos dados: Acessar os dados das empresas e verificar o uso do webscraping.
@@ -38,6 +41,7 @@ Repositório do trabalho desenvolvido no curso de Análise de Dados do Programa 
 - Em equipe, analisar as informações úteis da base elaborada.
 - Gerar a base bruta para jogar na nuvem
 **Resultado: Dump da base real (sql)**.
+
 
 # 2ª fase: (front end)
 - Uso da ferramenta *PowerBi, Data Studio ou High Charts*; e, 
