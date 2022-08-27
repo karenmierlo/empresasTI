@@ -15,7 +15,7 @@ Empresas: entender como os candidatos enxergam as empresas e seus benefícios.
 
 | --- | Alice, a antenada | Chris, the native | Fernando, o programador | Karen, a centrada | Saymon, o sombra | Tai, a que tem uma rocha no :heart: |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Empresa responsável | 1, 8 | 2, 9 | 3 | 4, 10 | 5, 11 | 6, 7 |
+| Empresa responsável | Empresa 1, Empresa 8 | Empresa 2, Empresa 9 | Empresa 3 | Empresa 4,  Empresa 10 | Empresa 5, Empresa 11 | Empresa 6, Empresa 7 |
 | Atividades realizadas ✅ | Coleta dos benefícios das empresas, Construção dos infográficos dos benefícios | Coleta dos benefícios das empresas, Construção do Questionário, Informações no Linkedin verificadas | Diagrama, Coleta dos benefícios das empresas | Coleta dos benefícios das empresas, Distribuição das funções | Coleta dos benefícios das empresas |Coleta dos benefícios das empresas |
 | Atividades a serem realizadas ⚠ | | Pesquisar Webscrapping e transposição de dados da tabela | Webscrapping do Linkedin, Construção do código e envio para nuvem | Ajuste do Questionário, Montagem do script da gravação  | |  |
 
