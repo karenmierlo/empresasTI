@@ -13,9 +13,9 @@ Empresas: entender como os candidatos enxergam as empresas e seus benefícios.
 *Tabela de Atribuições*
 
 
-| --- | Alice, a antenada | Chris, the native | Fernando, o programador | Karen, a | Saymon, o sombra | Tai, a que tem uma rocha no :heart: |
+| --- | Alice, a antenada | Chris, the native | Fernando, o programador | Karen, a centrada | Saymon, o sombra | Tai, a que tem uma rocha no :heart: |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Empresa responsável | SQL, Fortran | Python, HTML | Cobol | C#, Typesript | Assembly, Java | Web, R |
+| Empresa responsável | 1, 8 | 2, 9 | 3 | 4, 10 | 5, 11 | 6, 7 |
 | Atividades realizadas ✅ | Coleta dos benefícios das empresas, Construção dos infográficos dos benefícios | Coleta dos benefícios das empresas, Construção do Questionário, Informações no Linkedin verificadas | Diagrama, Coleta dos benefícios das empresas | Coleta dos benefícios das empresas, Distribuição das funções | Coleta dos benefícios das empresas |Coleta dos benefícios das empresas |
 | Atividades a serem realizadas ⚠ | | Pesquisar Webscrapping e transposição de dados da tabela | Webscrapping do Linkedin, Construção do código e envio para nuvem | Ajuste do Questionário, Montagem do script da gravação  | |  |
 
