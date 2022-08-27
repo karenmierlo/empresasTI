@@ -44,14 +44,14 @@ Repositório do trabalho desenvolvido no curso de Análise de Dados do Programa 
 - Demonstrar as informações de modo que o usuário possa analisar aquelas que são do seu interesse.
 
 ## Empresas Pesquisadas:
-- SQL Inc.
-- Python Technologies
-- Cobol System
-- C# Company
-- Assembly Software
-- Web S.A
-- R Developments
-- Fortran Old S.A
-- HTML Corporation
-- Typescript LLC
-- Java Works
+- Empresa 1
+- Empresa 2
+- Empresa 3
+- Empresa 4
+- Empresa 5
+- Empresa 6
+- Empresa 7
+- Empresa 8
+- Empresa 9
+- Empresa 10
+- Empresa 11
