@@ -39,7 +39,7 @@ Repositório do trabalho desenvolvido no curso de Análise de Dados do Programa 
 - Criar a base de dados 
 - Popular a base de dados
 - Em equipe, analisar as informações úteis da base elaborada.
-- Gerar a base bruta para jogar na nuvem
+- Gerar a base bruta para jogar na nuvem.
 **Resultado: Dump da base real (sql)**.
 
 
