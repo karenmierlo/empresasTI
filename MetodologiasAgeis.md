@@ -13,7 +13,7 @@ Empresas: entender como os candidatos enxergam as empresas e seus benefícios.
 *Tabela de Atribuições*
 
 
-| --- | Alice, a antenada | Chris, the native | Fernando, o programador | Karen, a centrada | Saymon, o sombra | Tai, a que tem uma rocha no :heart: |
+| --- | Alice, a antenada | Chris, the native | Fernando, o programador | Karen, a centrada | Saymon, o resiliente | Tai, a inspiradora |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Empresa responsável | Empresa 1, Empresa 8 | Empresa 2, Empresa 9 | Empresa 3 | Empresa 4,  Empresa 10 | Empresa 5, Empresa 11 | Empresa 6, Empresa 7 |
 | Atividades realizadas ✅ | Coleta dos benefícios das empresas, Construção dos infográficos dos benefícios | Coleta dos benefícios das empresas, Construção do Questionário, Informações no Linkedin verificadas | Diagrama, Coleta dos benefícios das empresas | Coleta dos benefícios das empresas, Distribuição das funções | Coleta dos benefícios das empresas |Coleta dos benefícios das empresas |
