@@ -32,6 +32,8 @@ Repositório do trabalho desenvolvido no curso de Análise de Dados do Programa 
 
 *Reunião 26/08: *Orientação do Prof. Adriano sobre apresentação e etapas a serem consideradas. Base disponibilizada na nuvem (MySQL) com dashboards gerados via Data Studio. 
 
+*Reunião 29/08: *Pré-teste final do questionário com vínculo ao dashboard de benefícios das empresas e definição da data limite para retorno do questionário.
+
 - Etapas:
 # 1ª fase (back end)
 - Coleta dos dados: Acessar os dados das empresas e verificar o uso do webscraping.
