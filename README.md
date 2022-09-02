@@ -34,6 +34,8 @@ Repositório do trabalho desenvolvido no curso de Análise de Dados do Programa 
 
 *Reunião 29/08: *Pré-teste final do questionário com vínculo ao dashboard de benefícios das empresas e definição da data limite para retorno do questionário. Disparo do questionário para turma de Análise de Dados. *Orientação e reunião com Prof. Adriano sobre *appweb encapsulando com iframes (Django)*.
 
+*Reunião 01/09: *Reunião e orientação com Prof. Adriano sobre os encaminhamentos necessários quanto aos acordos do grupo, divulgação de dados e continuidade (?) do projeto; tratamento dos dados coletados; serialização do csv no Pandas; próximos passos. 
+
 - Etapas:
 # 1ª fase (back end)
 - Coleta dos dados: Acessar os dados das empresas e verificar o uso do webscraping.
@@ -62,6 +64,6 @@ Repositório do trabalho desenvolvido no curso de Análise de Dados do Programa 
 - Empresa 10
 - Empresa 11
 
-ACORDOS
+**ACORDOS**
 - Em comum acordo, todos os integrantes já listados no quadro acima, se comprometem a não divulgar os dados, sendo este, como se fosse um acordo de confidencialidade.
 - Também foi acordado que nenhum nome de empresa será divulgado. Caso algum representante de alguma das empresas apresentadas queira saber qual é a sua empresa, somente será apresentada essa em específico, não divulgando as demais.
