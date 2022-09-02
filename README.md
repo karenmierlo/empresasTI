@@ -61,3 +61,7 @@ Repositório do trabalho desenvolvido no curso de Análise de Dados do Programa 
 - Empresa 9
 - Empresa 10
 - Empresa 11
+
+ACORDOS
+- Em comum acordo, todos os integrantes já listados no quadro acima, se comprometem a não divulgar os dados, sendo este, como se fosse um acordo de confidencialidade.
+- Também foi acordado que nenhum nome de empresa será divulgado. Caso algum representante de alguma das empresas apresentadas queira saber qual é a sua empresa, somente será apresentada essa em específico, não divulgando as demais.
