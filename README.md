@@ -34,7 +34,8 @@ Repositório do trabalho desenvolvido no curso de Análise de Dados do Programa 
 
 *Reunião 29/08: *Pré-teste final do questionário com vínculo ao dashboard de benefícios das empresas e definição da data limite para retorno do questionário. Disparo do questionário para turma de Análise de Dados. *Orientação e reunião com Prof. Adriano sobre *appweb encapsulando com iframes (Django)*.
 
-*Reunião 01/09: *Reunião e orientação com Prof. Adriano sobre os encaminhamentos necessários quanto aos acordos do grupo, divulgação de dados e continuidade (?) do projeto; tratamento dos dados coletados; serialização do csv no Pandas; próximos passos. 
+*Reunião 01/09: *Reunião e orientação com Prof. Adriano sobre os encaminhamentos necessários quanto aos acordos do grupo, divulgação de dados e continuidade (?) do projeto; tratamento dos dados coletados; serialização do csv no Pandas; próximos passos.
+*Reunião 02/09: *Reunião e orientação com Prof. Adriano - serialização dos dados do csv no pandas.
 
 - Etapas:
 # 1ª fase (back end)
