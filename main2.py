@@ -15,11 +15,9 @@ for i in range(1,14):
     pergunta=df.columns[1]
     df['Question']=pergunta
     df['Questionid']=i
-    df = df.rename(columns={ pergunta : 'Answer'})
-    #display(df)
+    df = df.rename(columns={ pergunta : 'Answer'})    
     dfok = dfok.append(df,True)
-    #print(dfok.count)
-    #print(df.count)
+    
 
 
 

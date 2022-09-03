@@ -10,17 +10,29 @@ dfok['Question']=''
 dfok['Questionid']=''
 dfok['id']=''
 
+
 for i in range(1,14):
     colunas=[0,i]
     df = pd.read_csv(url_or_file, header=0,usecols=colunas)
     pergunta=df.columns[1]
     df['Question']=pergunta
-    df['Questionid']=i    
     df = df.rename(columns={ pergunta : 'Answer'})
-    #display(df)
-    dfok = dfok.append(df,True)
-    #print(dfok.count)
-    #print(df.count)
+    
+    valor=[]
+    for i in range(len(dfok),len(df)+len(dfok)):
+        valor.append(i)
+    df.insert(5, 'id', valor)                            
+    df.set_index('id')
+    dfok = dfok.concat([dfok,df])
+    
+    
+
+## a coluna ID do dfok deve receber '' (ok)
+## a coluna ID do df deve receber um range de lenght de dfok + 1 ao lenght dela. 
+## usar o comando df.insert(conforme exemplo em teste.ipynb)
+## df.set_index(xxxx) para modificar o index das duas tabelas. 
+## depois fazer o df.concat([dfok,df],outer) e informar que a coluna index é a id em ambas. 
+## não permitir que o concat utilize a coluna carimbo de data/hora para merge ou concat 
 
 
 
