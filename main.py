@@ -43,5 +43,6 @@ insert_values = "".join(str(values).strip('[]'))
 sql=(f"INSERT INTO PERGUNTAS_G3 (PERGUNTAS_CARIMBO,PERGUNTAS_ID_RESPOSTA,PERGUNTAS_NOME,PERGUNTAS_RESPOSTA) VALUES {insert_values}")
 
 # print(insert_values)
+# .
 cur.execute(sql)
 cnx.commit()
