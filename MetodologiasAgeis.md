@@ -2,7 +2,7 @@
 
 Função: definir interesses de todos os envolvidos (Stakeholders), funcionalidades do produto e priorizar os itens de Product Backlog.
 
-**Funcionalidade**
+**Funcionalidade** teste
 Candidatos: permitir a identificação dos benefícios mais comuns nas empresas âncoras do Entra21.
 Empresas: entender como os candidatos enxergam as empresas e seus benefícios.
 
