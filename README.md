@@ -14,57 +14,17 @@ Repositório do trabalho desenvolvido no curso de Análise de Dados do Programa 
 | Adriano Machado | <a href="https://www.linkedin.com/in/xadrak/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | Professor Orientador |
 
  </h5>
- 
-- Orientações:
-# 1ª fase - compreensão dos dados
-# 2ª fase - exposição dos dados
 
-**Objetivo**: Fornecer um dashboard com informações manipuláveis das principais empresas investidoras de um Programa de Formação na área de TI e os benefícios oferecidos aos seus futuros colaboradores.
+Função PO: definir interesses de todos os envolvidos (Stakeholders), funcionalidades do produto e priorizar os itens de Product Backlog.
 
-**Reunião 02/08/2022 - Sprint01**
-1) Definição do projeto a ser executado: Apresentar (e analisar) os dados relativos aos benefícios das Empresas de TI para os seus colaboradores.
-2) Elaboração da base de dados a partir das informações disponíveis nos sites das empresas.
-3) Coleta de dados: benefícios, salário estimado e outros *a definir* (local, vagas e área da vaga, tipo de vaga, requisitos, segmento/ramo).
-4) Linguagens: Python e Sqlite.
-5) Bibliotecas: Pandas.
+**Objetivo**: 
+Apresentar o desenvolvimento da construção do projeto, assim como informações pertinentes ao projeto.
 
-*Reunião 09/08: *definir *P.O., Scrum Master, Developers team (Front End, Back End, Deploy)*.
+**Restrições**:
+Este repositório faz parte do Projeto ENTRA21, logo, suas informações seguem as políticas do projeto, sendo vedada a cópia ou distribuição sem prévia autorização.
+Não será divulgado nome de nenhuma empresa. Apenas para o responsável pela mesma, caso seja requisitado.
 
-*Reunião 26/08: *Orientação do Prof. Adriano sobre apresentação e etapas a serem consideradas. Base disponibilizada na nuvem (MySQL) com dashboards gerados via Data Studio. 
+**Status**:
+Em desenvolvimento
 
-*Reunião 29/08: *Pré-teste final do questionário com vínculo ao dashboard de benefícios das empresas e definição da data limite para retorno do questionário. Disparo do questionário para turma de Análise de Dados. *Orientação e reunião com Prof. Adriano sobre *appweb encapsulando com iframes (Django)*.
-
-*Reunião 01/09: *Reunião e orientação com Prof. Adriano sobre os encaminhamentos necessários quanto aos acordos do grupo, divulgação de dados e continuidade (?) do projeto; tratamento dos dados coletados; serialização do csv no Pandas; próximos passos.
-*Reunião 02/09: *Reunião e orientação com Prof. Adriano - serialização dos dados do csv no pandas.
-
-- Etapas:
-# 1ª fase (back end)
-- Coleta dos dados: Acessar os dados das empresas e verificar o uso do webscraping.
-- **Diagrama de entidades e relacionamentos**
-- Criar a base de dados 
-- Popular a base de dados
-- Em equipe, analisar as informações úteis da base elaborada.
-- Gerar a base bruta para jogar na nuvem.
-**Resultado: Dump da base real (sql)**.
-
-
-# 2ª fase: (front end)
-- Uso da ferramenta *PowerBi, Data Studio ou High Charts*; e, 
-- Demonstrar as informações de modo que o usuário possa analisar aquelas que são do seu interesse.
-
-## Empresas Pesquisadas:
-- Empresa 1
-- Empresa 2
-- Empresa 3
-- Empresa 4
-- Empresa 5
-- Empresa 6
-- Empresa 7
-- Empresa 8
-- Empresa 9
-- Empresa 10
-- Empresa 11
-
-**ACORDOS**
-- Em comum acordo, todos os integrantes já listados no quadro acima, se comprometem a não divulgar os dados, sendo este, como se fosse um acordo de confidencialidade.
-- Também foi acordado que nenhum nome de empresa será divulgado. Caso algum representante de alguma das empresas apresentadas queira saber qual é a sua empresa, somente será apresentada essa em específico, não divulgando as demais.
+**Maiores informações do projeto estão disponíveis na pasta 'anotacoes'**
