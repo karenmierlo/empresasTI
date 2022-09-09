@@ -42,7 +42,9 @@ Para isso, o projeto se deu em etapas:
 
 # Dados Técnicos
 **Linguagens usadas:** Python e Sqlite
+
 **Bibliotecas usadas:** pandas
+
 **DER:** disponível no arquivo 'tabelas_sql.md'
 
 # Links Importantes
