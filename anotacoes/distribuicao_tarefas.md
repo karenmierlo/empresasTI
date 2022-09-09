@@ -15,4 +15,4 @@
 | Atividades realizadas Sprint6 ✅ |ajuste da planilha de beneficios, atualização dashboard beneficios | Pesquisa sobre serialização do csv no Pandas | Pesquisa sobre serialização do csv no Pandas, Construção do código do tratamento dos dados | Pesquisa sobre serialização do csv no Pandas, Organização readme | | |
 | Atividades realizadas Sprint7 ✅ | | | | | | |
 | Atividades realizadas Sprint8 ✅ | | | | | | |
-| Atividades a serem realizadas ⚠ | | | Construção do código para tratamento dos dados do Questionário | Montagem do script da gravação | | |
+| Atividades a serem realizadas ⚠ | Criação DashBoars dos resultados da pesquisa| | Construção do código para tratamento dos dados do Questionário | Montagem do script da gravação | | |
