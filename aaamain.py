@@ -46,16 +46,21 @@ for i in range(1,14):
     #print(dfok.dtypes)
 
 values = []
-for index,row in dfok.iterrows():
 
-    CARIMBO = dfok[[ 'Carimbo de data/hora']]  
-    IDRESPOSTA = dfok[[ 'Questionid']]  
-    PERGUNTA = dfok[[ 'Answer']]  
-    RESPOSTA = dfok[[ 'Question']]   
-    values.append((CARIMBO,IDRESPOSTA,PERGUNTA,RESPOSTA))
+
+print(len(dfok))
+
+
+# for index,row in dfok.iterrows():
+
+#     CARIMBO = dfok[[ 'Carimbo de data/hora']]  
+#     IDRESPOSTA = dfok[[ 'Questionid']]  
+#     PERGUNTA = dfok[[ 'Answer']]  
+#     RESPOSTA = dfok[[ 'Question']]   
+#     values.append((CARIMBO,IDRESPOSTA,PERGUNTA,RESPOSTA))
     
         
-insert_values = "".join(str(values).strip('[]'))
-sql=(f"INSERT INTO PERGUNTAS_TCC (PERGUNTAS_CARIMBO,PERGUNTAS_ID_RESPOSTA,PERGUNTAS_NOME,PERGUNTAS_RESPOSTA) VALUES {insert_values}")
-cur.execute(sql)
-cnx.commit()
+# insert_values = "".join(str(values).strip('[]'))
+# sql=(f"INSERT INTO PERGUNTAS_TCC (PERGUNTAS_CARIMBO,PERGUNTAS_ID_RESPOSTA,PERGUNTAS_NOME,PERGUNTAS_RESPOSTA) VALUES {insert_values}")
+# cur.execute(sql)
+# cnx.commit()
