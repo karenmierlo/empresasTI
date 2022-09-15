@@ -1,6 +1,8 @@
 import mysql.connector
-import pandas as pd 
- 
+import pandas as pd
+
+
+
 cnx = mysql.connector.connect(
     host = '3.89.36.150',
     user = 'e2122g3',
@@ -27,6 +29,8 @@ cur.execute("""
 
 #url_or_file='https://docs.google.com/spreadsheets/d/e/2PACX-1vQrGR2RwQBQAbt3Mzu0UbgKMGSY1hxXtt8rV1fcLzrwjRy2KBDUaSOoT5EKt-j0t6cxZ0KIz-4O0ZVf/pub?gid=891049362&single=true&output=csv'
 url_or_file='https://docs.google.com/spreadsheets/d/e/2PACX-1vQrGR2RwQBQAbt3Mzu0UbgKMGSY1hxXtt8rV1fcLzrwjRy2KBDUaSOoT5EKt-j0t6cxZ0KIz-4O0ZVf/pub?gid=891049362&single=true&output=csv'
+url_or_file='https://docs.google.com/spreadsheets/d/e/2PACX-1vQrGR2RwQBQAbt3Mzu0UbgKMGSY1hxXtt8rV1fcLzrwjRy2KBDUaSOoT5EKt-j0t6cxZ0KIz-4O0ZVf/pub?gid=891049362&single=true&output=csv'
+
 dfok=pd.DataFrame()
 dfok.columns = [c.replace(' ', '_') for c in dfok.columns]
 dfok.columns = [c.replace('/', '_') for c in dfok.columns]
@@ -41,10 +45,10 @@ dfok['Questionid']=''
 for i in range(1,14):
     colunas=[0,i]
     df = pd.read_csv(url_or_file, header=0,usecols=colunas)
-    pergunta=df.columns[1]
-    df['Question']=pergunta
-    df['Questionid']=i
+    pergunta=df.columns[1]    
     df = df.rename(columns={ pergunta : 'Answer'})    
+    df['Question']=pergunta
+    df['Questionid']=i        
     dfok = (pd.concat([dfok, df],ignore_index = True))
     dfok['Carimbo_de_data_hora']= (pd.to_datetime(dfok['Carimbo_de_data_hora']))
     
@@ -56,19 +60,26 @@ len(dfok)
 
 #print(dfok[0:1100])
 
-dfok1 = dfok[0:1085]
+# dfok1 = dfok[0:1085]
+dfok1 = dfok[600:1600]
 dfok2 = dfok[1086:1999]
 dfok3 = dfok[2000:2830]
 
 #print(dfok2)
- 
+
+
+
+
 values = []
 for index,row in dfok1.iterrows():
-    CARIMBO = row.Carimbo_de_data_hora
-    IDRESPOSTA = row.Questionid
-    PERGUNTA = row.Question
-    RESPOSTA = row.Answer
-    values.append((CARIMBO,IDRESPOSTA,PERGUNTA,RESPOSTA))
+    
+    for xresp in (list(str.split(row.Answer,sep=','))):
+        CARIMBO = row.Carimbo_de_data_hora
+        IDRESPOSTA = row.Questionid
+        PERGUNTA = row.Question
+        RESPOSTA = xresp 
+        print (CARIMBO,IDRESPOSTA,PERGUNTA,xresp)
+        values.append((CARIMBO,IDRESPOSTA,PERGUNTA,RESPOSTA))
         
 insert_values = "".join(str(values).strip('[]'))
 sql=(f"INSERT INTO PERGUNTAS_TCC (PERGUNTAS_CARIMBO,PERGUNTAS_ID_RESPOSTA,PERGUNTAS_NOME,PERGUNTAS_RESPOSTA) VALUES {insert_values}")
@@ -77,32 +88,32 @@ sql=(f"INSERT INTO PERGUNTAS_TCC (PERGUNTAS_CARIMBO,PERGUNTAS_ID_RESPOSTA,PERGUN
 cur.execute(sql)
 cnx.commit()
 
-values = []
-for index,row in dfok2.iterrows():
-    CARIMBO = row.Carimbo_de_data_hora
-    IDRESPOSTA = row.Questionid
-    PERGUNTA = row.Question
-    RESPOSTA = row.Answer
-    values.append((CARIMBO,IDRESPOSTA,PERGUNTA,RESPOSTA))
+# values = []
+# for index,row in dfok2.iterrows():
+#     CARIMBO = row.Carimbo_de_data_hora
+#     IDRESPOSTA = row.Questionid
+#     PERGUNTA = row.Question
+#     RESPOSTA = row.Answer
+#     values.append((CARIMBO,IDRESPOSTA,PERGUNTA,RESPOSTA))
         
-insert_values = "".join(str(values).strip('[]'))
-sql=(f"INSERT INTO PERGUNTAS_TCC (PERGUNTAS_CARIMBO,PERGUNTAS_ID_RESPOSTA,PERGUNTAS_NOME,PERGUNTAS_RESPOSTA) VALUES {insert_values}")
+# insert_values = "".join(str(values).strip('[]'))
+# sql=(f"INSERT INTO PERGUNTAS_TCC (PERGUNTAS_CARIMBO,PERGUNTAS_ID_RESPOSTA,PERGUNTAS_NOME,PERGUNTAS_RESPOSTA) VALUES {insert_values}")
 
-#print(insert_values)
-cur.execute(sql)
-cnx.commit()
+# #print(insert_values)
+# cur.execute(sql)
+# cnx.commit()
 
-values = []
-for index,row in dfok3.iterrows():
-    CARIMBO = row.Carimbo_de_data_hora
-    IDRESPOSTA = row.Questionid
-    PERGUNTA = row.Question
-    RESPOSTA = row.Answer
-    values.append((CARIMBO,IDRESPOSTA,PERGUNTA,RESPOSTA))
+# values = []
+# for index,row in dfok3.iterrows():
+#     CARIMBO = row.Carimbo_de_data_hora
+#     IDRESPOSTA = row.Questionid
+#     PERGUNTA = row.Question
+#     RESPOSTA = row.Answer
+#     values.append((CARIMBO,IDRESPOSTA,PERGUNTA,RESPOSTA))
         
-insert_values = "".join(str(values).strip('[]'))
-sql=(f"INSERT INTO PERGUNTAS_TCC (PERGUNTAS_CARIMBO,PERGUNTAS_ID_RESPOSTA,PERGUNTAS_NOME,PERGUNTAS_RESPOSTA) VALUES {insert_values}")
+# insert_values = "".join(str(values).strip('[]'))
+# sql=(f"INSERT INTO PERGUNTAS_TCC (PERGUNTAS_CARIMBO,PERGUNTAS_ID_RESPOSTA,PERGUNTAS_NOME,PERGUNTAS_RESPOSTA) VALUES {insert_values}")
 
-#print(insert_values)
-cur.execute(sql)
-cnx.commit()
+# #print(insert_values)
+# cur.execute(sql)
+# cnx.commit()
