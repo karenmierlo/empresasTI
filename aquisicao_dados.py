@@ -71,8 +71,7 @@ dfok3 = dfok[2000:2830]
 
 
 values = []
-for index,row in dfok1.iterrows():
-    
+for index,row in dfok1.iterrows():    
     for xresp in (list(str.split(row.Answer,sep=','))):
         CARIMBO = row.Carimbo_de_data_hora
         IDRESPOSTA = row.Questionid
@@ -80,6 +79,7 @@ for index,row in dfok1.iterrows():
         RESPOSTA = xresp 
         print (CARIMBO,IDRESPOSTA,PERGUNTA,xresp)
         values.append((CARIMBO,IDRESPOSTA,PERGUNTA,RESPOSTA))
+        
         
 insert_values = "".join(str(values).strip('[]'))
 sql=(f"INSERT INTO PERGUNTAS_TCC (PERGUNTAS_CARIMBO,PERGUNTAS_ID_RESPOSTA,PERGUNTAS_NOME,PERGUNTAS_RESPOSTA) VALUES {insert_values}")
