@@ -74,10 +74,10 @@ dfok1b=pd.DataFrame()
 class TrocaWordId(QuestionID,Word):
     
     dict = Dict(
-        'question_id' : 1
-        'empresas' : {
-            '1': 'Ambev Tech',
-            '2':
+        'question_id' : 8
+        'resposta' : {
+            'Ambev Tech':'xxxxx' ,
+            '': 'xxxx', 
         }
         )
     
