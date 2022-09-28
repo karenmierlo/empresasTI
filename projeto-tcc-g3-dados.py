@@ -6,6 +6,7 @@ def pp(a):
     print('a', end='')
 
 
+#url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQrGR2RwQBQAbt3Mzu0UbgKMGSY1hxXtt8rV1fcLzrwjRy2KBDUaSOoT5EKt-j0t6cxZ0KIz-4O0ZVf/pub?gid=891049362&single=true&output=csv'
 url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQrGR2RwQBQAbt3Mzu0UbgKMGSY1hxXtt8rV1fcLzrwjRy2KBDUaSOoT5EKt-j0t6cxZ0KIz-4O0ZVf/pub?gid=891049362&single=true&output=csv'
 
 df = pd.DataFrame()
@@ -31,7 +32,7 @@ for i in range(1, 14):
 print(len(df))
 
 pp('b1')
-
+# teste 
 
 def verifica(base8, empresa):
     pp('b2')
@@ -44,6 +45,7 @@ def verifica(base8, empresa):
 
 
 pp('b3')
+
 
 base8 = {
     'Senior Sistemas': 'Empresa1',
