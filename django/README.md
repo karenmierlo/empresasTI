@@ -33,6 +33,13 @@ arquivo: django/app1/urls.py
     -> links para as views
 
 
+arquivo: django/app1/views.py 
+- > funcoes ou views que abrem cada aba
+
+arquivo: django/app1/templates
+- > paginas html de cada 
+
+
 
 
 
