@@ -37,7 +37,8 @@ arquivo: django/app1/views.py
 - > funcoes ou views que abrem cada aba
 
 arquivo: django/app1/templates
-- > paginas html de cada 
+- > paginas html de cada funcao chamada
+- 
 
 
 
