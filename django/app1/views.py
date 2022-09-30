@@ -41,4 +41,10 @@ def about(request):
         { 'dados' : data } 
     )  
 
+def karen(request):
+    data = "Meu nome é Karen, eu tenho 26 anos" 
+
+    return render(request, 'karen.html', 
+        { 'dados' : data } 
+    )  
 
