@@ -38,7 +38,10 @@ arquivo: django/app1/views.py
 
 arquivo: django/app1/templates
 - > paginas html de cada funcao chamada
-- 
+
+
+arquivo: django/app1/templates/base.html
+-> pagina base com os menus. 
 
 
 
