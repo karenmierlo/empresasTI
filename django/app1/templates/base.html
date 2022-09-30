@@ -21,29 +21,21 @@
             
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
-                    {% if user.is_authenticated %}
+                    
                     <li class="nav-item">
-                        <a class="nav-link" href="/db1">DashBoard1</a>
+                        <a class="nav-link" href="/db1">D1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/db2">DashBoard2</a>
-                    </li>
-                    <li class="nav-item">
-                            <a class="nav-link" href="/admin">Admin</a>
-                        </li>
-                    {% else %}
-                    <li class="nav-item">
-                        <a class="nav-link" href="/accounts/login">Login</a>
-                    </li>
-                    {% endif %}
+                        <a class="nav-link" href="/db2">D2</a>
+                    </li>                                     
+                 
+                    
                     <li class="nav-item">
                         <a class="nav-link" href="/about">Sobre</a>
                     </li>
-                    {% if user.is_authenticated %}
-                    <li class="nav-item">
-                            <a class="nav-link" href="/accounts/logout">Sair </a>
-                        </li>
-                    {% endif %}
+                    
+              
+                    
                 </ul>
             </div>
         </nav>
