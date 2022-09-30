@@ -27,5 +27,16 @@ Sequencia de códigos utilizara para criar ambiente inteiro.
 
 ~~~
 
+Arquivos a editar:
+
+arquivo: django/app1/urls.py
+    -> links para as views
+
+
+
+
+
+
+
 
 
