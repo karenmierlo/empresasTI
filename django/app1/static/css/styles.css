@@ -8,9 +8,11 @@
 
 /* Navbar */
 
-.navbar  {
-    border-bottom: 1px solid rgb(223, 11, 11);
-    margin-bottom: 20px;
+.navbar {
+    border-bottom: 1px solid #333;
+    margin-bottom: 80px;
+    padding: 0px 15px;
+    background-color: #202124 !important;
 }
 
 .navbar-nav {
@@ -22,7 +24,7 @@
 }
 
 .navbar-light .navbar-nav a.nav-link {
-    color: rgb(199, 37, 37);
+    color: rgb(37, 199, 175);
     letter-spacing: 1px;
 }
 
