@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Sobre Karen{% endblock %}
+
+{% block content %}
+
+{% csrf_token %}  
+
+<p>
+
+    {{ dados  }}  
+
+</p>
+
+<iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/b54ef673-d79a-45db-ae43-5ac52836b1f0/page/p_v25u4wyxyc" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+{% endblock %}

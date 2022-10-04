@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}Lista de Tags{% endblock %}
+
+{% block content %}
+
+{% csrf_token %}  
+
+<p>
+
+    {{ dados  }}  
+
+
+</p>
+
+<iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/e304ebed-cd81-43c1-bcba-38e1b8d9ec15/page/p_8jjm70xxyc" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+{% endblock %}

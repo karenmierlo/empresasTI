@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}Lista de Tags{% endblock %}
+
+{% block content %}
+
+<div class="row">
+    <div class="col">
+                <h4 class="card-title text-center">Perfil das Empresas e Alunos do Entra21</h4>        
+                    {% csrf_token %}  
+                    {{ dados  }}
+
+                    <p> 
+                        Esse gráfico foi inserido em um questionário contendo 13 perguntas, que foi enviado a vários alunos do projeto. Mas afinal, o que queríamos saber com esse questionário? MUUUITA coisa em relação aos benefícios que as empresas oferecem, como: quais são os benefícios que os alunos mais tem interesse, se eles impactam na escolha de onde os alunos querem trabalhar, quais empresas os alunos mais querem trabalhar, além também de outras informações como o curso e período que o aluno estuda, idade, gênero, idiomas que fala ou que possui conhecimento. Depois de respondido o Google Forms, as respostas foram exportadas através de um arquivo CSV e tratadas por meio de um código em Python, que também será explicado depois. Esse código utilizou uma biblioteca chamada Pandas. Ele foi feito no VSCode, e utilizamos o DBeaver para conectar com a nuvem, posteriormente, foi feita conexão via MySqL com o DataStudio, possibilitando gerar esse dashboard que vocês estão vendo.
+    </div>
+</div>
+
+{% csrf_token %}  
+{{ dados }}
+
+<div>
+    <iframe width="600" height="450" name="Reload" class="desktop" src="https://datastudio.google.com/embed/reporting/25ad6fc5-767a-4662-83bd-a1ab515be682/page/p_kiiumvznyc" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+{% endblock %}

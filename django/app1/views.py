@@ -6,45 +6,66 @@ from django.contrib.auth.decorators import login_required
 # @login_required
 def index(request):
 
-    data = "Versao 0.21 - apresentação"
+    data = " "
     
 
     return render(request, 'index.html', 
         { 'dados' : data } 
     )
 
-# @login_required
-def db1(request):
+def home(request):
 
-    data = "Versao 0.01 - Dashboard 1 (um) "
+    data = " "
 
-    return render(request, 'dashboard1.html', 
+    return render(request, 'home.html', 
         { 'dados' : data } 
     )    
 
 # @login_required
-def db2(request):
+def perfil(request):
 
-    data = "Versao 0.01 - Dashboard 2 (dois)"
+    data = " "
+
+    return render(request, 'perfil.html', 
+        { 'dados' : data } 
+    )    
+
+# @login_required
+def curso(request):
+
+    data = " "
     
 
-    return render(request, 'dashboard2.html', 
+    return render(request, 'curso.html', 
         { 'dados' : data } 
     )        
 
 
 # @login_required
-def about(request):
-    data = "Nos da equipe xxxxxx trabalhamos intensamente em bla bla bla" 
+def empresas(request):
+    data = " " 
 
-    return render(request, 'about.html', 
+    return render(request, 'empresas.html', 
         { 'dados' : data } 
     )  
 
-def karen(request):
-    data = "Meu nome é Karen, eu tenho 26 anos" 
+def beneficios(request):
+    data = " " 
 
-    return render(request, 'karen.html', 
+    return render(request, 'beneficios.html', 
         { 'dados' : data } 
     )  
 
+def vagas(request):
+    data = " " 
+
+    return render(request, 'vagas.html', 
+        { 'dados' : data } 
+    )  
+
+def sobrenos(request):
+    data = " " 
+
+    return render(request, 'sobrenos.html', 
+        { 'dados' : data } 
+    )  
