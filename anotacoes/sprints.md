@@ -21,8 +21,8 @@ Início das reuniões:
 
 *Sprint 8* - 19/09 a 23/09: construção de como será a apresentação: história do cliente.
 
-*Sprint 9* - 26/09 a 30/09: ajustes necessários; gravação do vídeo de apresentação.
+*Sprint 9* - 26/09 a 30/09: ajustes necessários no código e pesquisa sobre o Heroku; elaboração do roteiro de gravação do vídeo de apresentação.
 
-*Sprint 10* - 03/10 a 07/10: 
+*Sprint 10* - 03/10 a 07/10: ajustes necessários no código e nos dashboards; estruturação do Django; pesquisa sobre o Highcharts. 
 
-*Sprint 11* - 10/10 a 14/10: 
+*Sprint 11* - 10/10 a 14/10: gravação do vídeo de apresentação.
