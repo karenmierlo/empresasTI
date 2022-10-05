@@ -1,6 +1,6 @@
 # Projeto Empresas TI
 
-Este projeto tem como objetivo apresentar a dados sobre a percepção que os alunos do projeto ENTRA21 tem em relação aos benefícios que as 11 empresas âncoras fornecem aos seus funcionários.
+Este projeto tem como objetivo apresentar dados sobre a percepção e os interesses que os alunos do Programa ENTRA21 têm em relação aos benefícios que as 11 empresas âncoras oferecem aos seus colaboradores.
 
 **Funcionalidade**
 Candidatos: permitir a identificação dos benefícios mais comuns nas empresas âncoras do Entra21.
