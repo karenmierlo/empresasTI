@@ -9,21 +9,26 @@
 /* Navbar */
 
 .navbar  {
-    border-bottom: 1px solid rgb(59, 102, 203);
+    border-bottom: 2px solid rgb(20,20,20);
     margin-bottom: 20px;
 }
 
+/*barra do nome das abas */
 .navbar-nav {
     margin: auto;
 }
 
+/*barra do cantinho esquerdo*/
 .navbar-brand {
-    font-weight: bold;
+    /*font-weight: bold; */
+    font-size: 15px;
 }
 
+/*barra do nome das abas*/
 .navbar-light .navbar-nav a.nav-link {
-    color: rgb(199, 37, 37);
+    color: rgb(21, 21, 21);
     letter-spacing: 1px;
+    font-family: cambria;
 }
 
 /* dashboard */
@@ -35,6 +40,7 @@
 
 .dashboard h4 {
     font-size: 20px;
+    
 }
 
 .dashboard span {
@@ -45,8 +51,8 @@
 
 .dashboard-box {
     float: left;
-    background-color: #DFDFDF;
-    color: #FFF;
+    background-color: #2E2D33;
+    color: #2E2D33;
     padding: 20px;
     box-sizing: border-box;
     height: 80%px;
@@ -138,11 +144,11 @@
     height: 50px;
     padding: 0 15px;
     padding-top: 10px;
-    border-bottom: 1px dashed #CCC;
+    border-bottom: 1px dashed #2E2D33;
 }
 
 .task-item.done {
-    background-color: #CCC;
+    background-color: #2E2D33;
 }  
 
 .fas.fa-trash {
@@ -175,16 +181,18 @@
 
 /* Rodapé */
 footer {
-    background-color: #333;
-    height: 300px;
+    background-color: #2E2D33;
+    height: 30px;
     border-top: 2px solid #202020;
 }
 
 footer p {
     color: #f5f5f5;
     text-align: center;
-    top: 50%;
+    top: 20%;
     position: relative;
+    font-family: verdana;
+    font-size: 10px;
 }
 
 /* Messages */

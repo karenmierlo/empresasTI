@@ -5,33 +5,38 @@
 {% block content %}
 
 <div class="row">
-    <div class="col">
-                <h4 class="card-title text-center">Perfil das Empresas e Alunos do Entra21</h4>        
+    <div class="col">        
+        <br>
+                <h4 class="card-title text-center"><tt>Benefícios</tt></h4>
+                <br>
+                <h5 class="card-title text-center">Quais os benefícios mais oferecidos pelas Empresas Âncoras?</h5>            
                     {% csrf_token %}  
                     {{ dados  }}
 
                     <p> 
                         Os benefícios foram coletados nos sites de cada empresa e também nas suas páginas de vagas do Linkedin. Após isso, foram compilados em uma planilha e serializados. Através de um código escrito em Python no VS-Code, os dados foram tratados e enviados para um servidor na nuvem. Para você, que tem interesse em conhecer um pouco mais sobre o nosso código, aguarda mais um pouquinho que já explicamos.
-                    </p>
+                    </p><p>
+                        <br>
+                        <button class="desktop" onclick="var ifr=document.getElementsByName('Reload')[0]; ifr.src=ifr.src;">Redefinir
+                            Gráficos</button>
+                        </div>
+                    </p><p>
+                        <br>
+                        <div class="text-center">
+                        <iframe width="1000" height="700" src="https://datastudio.google.com/embed/reporting/9b3081eb-5b11-4b4e-bb62-8ff6117ffcbd/page/p_6ax0hf73xc" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                    <br>
+                    <br>
+                    <h5 class="card-title text-center">O que os candidatos acham desses benefícios?</h5> 
+                    </p><p>
                         Então, foi feita uma conexão do servidor na nuvem com o DataStudio para apresentar os dados dos benefícios nesse gráfico lindão que vocês estão vendo. Para enxergar melhor os dados, nós usamos um gráfico de barras laterais, tendo no eixo y as empresas, e no eixo x os benefícios, que também podem ser escolhidos através de uma lista suspensa. Então, você pode ver os benefícios mais comuns na área de TI, sendo que, os que mais aparecem são: vale alimentação, plano de saúde e vale transporte. E essas informações foram muito importantes para o nosso projeto, o motivo, vão descobrir agora!
                         
                     </p>
-
+                    <br><br>
     </div>
 </div>
 
 {% csrf_token %}  
 
-<p>
-
-    {{ dados  }}  
-
-</p>
-
-<iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/9b3081eb-5b11-4b4e-bb62-8ff6117ffcbd/page/p_6ax0hf73xc" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-<iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/cfd4cf82-5db2-43af-9014-ff85f8fa6500/page/p_j4fpx7yxyc" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-<iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/dd8a17bf-5363-46b9-8772-35c2a47defa9/page/p_2yg86tynyc" frameborder="0" style="border:0" allowfullscreen></iframe>
-
+</div>
 {% endblock %}

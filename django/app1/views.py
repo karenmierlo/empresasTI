@@ -22,24 +22,13 @@ def home(request):
     )    
 
 # @login_required
-def perfil(request):
+def alunos(request):
 
     data = " "
 
-    return render(request, 'perfil.html', 
+    return render(request, 'alunos.html', 
         { 'dados' : data } 
     )    
-
-# @login_required
-def curso(request):
-
-    data = " "
-    
-
-    return render(request, 'curso.html', 
-        { 'dados' : data } 
-    )        
-
 
 # @login_required
 def empresas(request):
@@ -53,13 +42,6 @@ def beneficios(request):
     data = " " 
 
     return render(request, 'beneficios.html', 
-        { 'dados' : data } 
-    )  
-
-def vagas(request):
-    data = " " 
-
-    return render(request, 'vagas.html', 
         { 'dados' : data } 
     )  
 
