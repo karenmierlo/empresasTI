@@ -15,4 +15,7 @@
 | Atividades realizadas Sprint6 ✅ |ajuste da planilha de beneficios, atualização dashboard beneficios | Realização das reuniões diárias, revisão das atividades com a equipe, Pesquisa sobre serialização do csv no Pandas | Pesquisa sobre serialização do csv no Pandas, Construção do código do tratamento dos dados | Pesquisa sobre serialização do csv no Pandas, Organização readme | Atualização de dados | |
 | Atividades realizadas Sprint7 ✅ | |Realização das reuniões diárias com a equipe | | | | |
 | Atividades realizadas Sprint8 ✅ | |Realização das reuniões diárias com a equipe | | | | |
-| Atividades a serem realizadas ⚠ | Criação DashBoards dos resultados da pesquisa| Auxílio na construção do código, Discussão com a equipe sobre os dados coletados,  Seleção das informações que integrarão os dashboards  | Construção do código para tratamento dos dados do Questionário | Montagem do script da gravação | Atualização de novos dados para o dashboard e aprimorar o visual | |
+| Atividades realizadas Sprint9 ✅ | |Realização das reuniões diárias com a equipe, Auxílio na construção do código, Discussão com a equipe sobre os dados coletados | | | | |
+| Atividades realizadas Sprint10 ✅| |Realização das reuniões diárias com a equipe, Seleção das informações que integrarão os dashboards, Elaboração da análise dos resultados | | | | |
+| Atividades realizadas Sprint11 ✅| |Realização das reuniões diárias com a equipe | | | | |
+| Atividades a serem realizadas ⚠ | Criação DashBoards dos resultados da pesquisa| Definição do nome do Grupo para o dia de apresentação na Mostra de Talentos  | Construção do código para tratamento dos dados do Questionário | Montagem do script da gravação | Atualização de novos dados para o dashboard e aprimorar o visual | |
