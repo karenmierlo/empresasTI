@@ -1,26 +1,46 @@
 {% extends 'base.html' %}
 
-{% block title %}Lista de Tags{% endblock %}
+{% block title %}Benefícios que as empresas oferecem {% endblock %}
 
 {% block content %}
+
 <div class="row">
-    <div class="col">
-                <h4 class="card-title text-center">Perfil das Empresas e Alunos do Entra21</h4>        
+    <div class="col">        
+        <br />
+                <h4 class="card-title text-center">Benefícios</h4>
+                <br />
+                <h5 class="card-title text-center">Quais os benefícios mais oferecidos pelas Empresas Âncoras?</h5>            
                     {% csrf_token %}  
                     {{ dados  }}
 
                     <p> 
-                        Sabe aquele momento da tua vida que você fala: “quero um novo emprego” e fica se perguntando por onde começar? Você abre vários sites de empresas, busca vagas no Linkedin e a seção de Trabalhe Conosco já tá nos seus favoritos. - gravar a tela das âncoras nesta parte do Trabalhe Conosco.
-                    </p>                         
-                        E aí você se pergunta: afinal, qual empresa quero entrar? qual combina comigo? Como seria minha rotina de trabalho? o quanto quero receber de salário? Que benefícios eu quero além do salário?
-                    </p>    
-                        E quando nós falamos em empresas com muitos benefícios, as de TI acabam se destacando, sendo referência no mercado de trabalho. Pensando nisso, nós reunimos os benefícios das 11 empresas âncoras do Programa ENTRA21 - um dos maiores programas de empregabilidade, que busca capacitar gratuitamente na área de tecnologia da informação.
-                    </p>                         
-                        As empresas âncoras são: ambevtech, Central Ailos, Capgemini, Datainfo, FarmáciasAPP, HavanLabs, Philips, Senior, T-Systems, Unifique e Warren. Mas, nessa pesquisa nós vamos apresentar essas empresas através de números distribuídos aleatoriamente.                     
-                        
-                    </p>
+                        Os benefícios foram coletados nos sites de cada empresa e também nas suas páginas de vagas do Linkedin. Após isso, foram compilados em uma planilha e serializados. Através de um código escrito em Python no VS-Code, os dados foram tratados e enviados para um servidor na nuvem. Para você, que tem interesse em conhecer um pouco mais sobre o nosso código, aguarda mais um pouquinho que já explicamos.
+                    </p><p>
+                        <br>
+                        <button class="desktop" onclick="var ifr=document.getElementsByName('Reload')[0]; ifr.src=ifr.src;">Redefinir
+                            Gráficos</button>
+                        </div>
+                    </p><p>
+                        <br>
+                        <div class="text-center">
+                        <iframe width="1000" height="700" src="https://datastudio.google.com/embed/reporting/9b3081eb-5b11-4b4e-bb62-8ff6117ffcbd/page/p_6ax0hf73xc" frameborder="0" style="border:0" allowfullscreen></iframe>
 
+                        <br />
+                        <br />
+                    <h5 class="card-title text-center">O que os candidatos acham desses benefícios?</h5> 
+                    </p><p>
+                        Então, foi feita uma conexão do servidor na nuvem com o DataStudio para apresentar os dados dos benefícios nesse gráfico lindão que vocês estão vendo. Para enxergar melhor os dados, nós usamos um gráfico de barras laterais, tendo no eixo y as empresas, e no eixo x os benefícios, que também podem ser escolhidos através de uma lista suspensa. Então, você pode ver os benefícios mais comuns na área de TI, sendo que, os que mais aparecem são: vale alimentação, plano de saúde e vale transporte. E essas informações foram muito importantes para o nosso projeto, o motivo, vão descobrir agora!
+                        <li> item 1 </li>
+                        <li> item 2 </li>
+                        <li> item 3 </li>
+                    </p>
+                    <br /><br />
+                    <img src="https://cdn.sonicadigital.com.br/entra21/storage/custom-page/1533/800x600-62be21fcd33b9.png" alt="farmaciasapp"/>
+                    <br />
     </div>
 </div>
 
+{% csrf_token %}  
+
+</div>
 {% endblock %}

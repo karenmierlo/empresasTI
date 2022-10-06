@@ -1,3 +1,24 @@
+html {
+    font-family: arial;
+    font-size: 16px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+    /*letter-spacing: 1px;*/
+}
+
+li {
+    text-align: center;
+}
+
+body{
+    background-color: #f3f2f7;
+    padding: 0 30px 0 30px;
+    margin: 0 0;
+}
+
 .container-fluid {
     padding: 0;
 }
@@ -11,6 +32,7 @@
 .navbar  {
     border-bottom: 2px solid rgb(20,20,20);
     margin-bottom: 20px;
+    padding: 0 0 0 0;
 }
 
 /*barra do nome das abas */
@@ -18,17 +40,19 @@
     margin: auto;
 }
 
+
 /*barra do cantinho esquerdo*/
 .navbar-brand {
     /*font-weight: bold; */
     font-size: 15px;
+    font-family: helvetica;
 }
 
 /*barra do nome das abas*/
 .navbar-light .navbar-nav a.nav-link {
     color: rgb(21, 21, 21);
     letter-spacing: 1px;
-    font-family: cambria;
+    font-family: helvetica;
 }
 
 /* dashboard */
@@ -88,14 +112,14 @@
     background-color: #3476e2;
     cursor: pointer;
     display: inline-block;
-    color: #FFF;
+    color: rgb(119, 95, 95);
     padding: 8px;
     border-radius: 5px;
     margin-right: 25px;
 }
 
 .fas.fa-plus {
-    color: #FFF;
+    color: rgb(58, 105, 131);
     margin-right: 10px;
     margin-left: 5px;
 }
@@ -168,7 +192,7 @@
 }
 
 .fa-check {
-    color: #CCC;
+    color: rgb(68, 150, 28);
     cursor: pointer;
     margin: 5px;
     font-size: 20px;
@@ -184,6 +208,7 @@ footer {
     background-color: #2E2D33;
     height: 30px;
     border-top: 2px solid #202020;
+
 }
 
 footer p {
@@ -191,9 +216,14 @@ footer p {
     text-align: center;
     top: 20%;
     position: relative;
-    font-family: verdana;
+    font-family: arial;
     font-size: 10px;
 }
+
+img {
+    display: block;
+    margin: 0 auto;
+  }
 
 /* Messages */
 
