@@ -1,6 +1,6 @@
 # Projeto Empresas TI
 
-Este projeto tem como objetivo apresentar a dados sobre a percepção que os alunos do projeto ENTRA21 tem em relação aos benefícios que as 11 empresas âncoras fornecem aos seus funcionários.
+Este projeto tem como objetivo apresentar dados sobre a percepção e os interesses que os alunos do Programa ENTRA21 têm em relação aos benefícios que as 11 empresas âncoras oferecem aos seus colaboradores.
 
 **Funcionalidade**
 Candidatos: permitir a identificação dos benefícios mais comuns nas empresas âncoras do Entra21.
@@ -33,7 +33,7 @@ Para isso, o projeto se deu em etapas:
 - Distribuição do formulário aos alunos do projeto
 
 ## Etapa 3: construção da dashboard da percepção dos benefícios
-- Tratamento dos dados utilizando Python no VSCode, com bibliotecas como pandas, incluindo a serialização dos dados.
+- Tratamento dos dados utilizando Python no VSCode, com bibliotecas como Pandas, incluindo a serialização dos dados.
 - Inserção na nuvem
 - Estruturação dos dados dos benefício em uma dashboard com o DataStudio
 
@@ -43,7 +43,7 @@ Para isso, o projeto se deu em etapas:
 # Dados Técnicos
 **Linguagens usadas:** Python e Sqlite
 
-**Bibliotecas usadas:** pandas
+**Bibliotecas usadas:** Pandas
 
 **DER:** disponível no arquivo 'tabelas_sql.md'
 
@@ -51,6 +51,8 @@ Para isso, o projeto se deu em etapas:
 - Tableau dos benefícios: https://public.tableau.com/views/ProjetoX_16620790151340/Painel1?:language=pt-BR&:display_count=n&:origin=viz_share_link
 - DataStudio dos benefícios: https://datastudio.google.com/reporting/2c5f12b5-5dca-4806-bddb-f92189fcda1c/page/tT40C/edit
 - DataStudio da percepção dos benefícios:
+
+# Django e Heroku
 
 # Palavras-chave:
 - Candidatos
