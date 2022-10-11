@@ -11,5 +11,3 @@ urlpatterns = [
     path('sobrenos/', views.sobrenos)
 
 ]
-
-a="abracadabra"

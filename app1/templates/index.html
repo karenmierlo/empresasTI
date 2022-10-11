@@ -4,29 +4,48 @@
 
 {% block content %}
 <div class="row">
-    <div class="col">
-                <h4 class="card-title text-center">Perfil das Empresas e Alunos do Entra21</h4>        
+    <div class="col">        
+        <br />
+                <h4 class="card-title text-center">Qual empresa de TI tem sua cara?</h4>
+                <br />
+                <h5 class="card-title text-center"> Você já parou para pensar sobre "Qual empresa de TI tem a sua cara"?!</h5>            
                     {% csrf_token %}  
                     {{ dados  }}
-
-                    <p> 
-                        Sabe aquele momento da tua vida que você fala: “quero um novo emprego” e fica se perguntando por onde começar? Você abre vários sites de empresas, busca vagas no Linkedin e a seção de Trabalhe Conosco já tá nos seus favoritos. - gravar a tela das âncoras nesta parte do Trabalhe Conosco.
-                    </p>  <p>                       
-                        E aí você se pergunta: afinal, qual empresa quero entrar? qual combina comigo? Como seria minha rotina de trabalho? o quanto quero receber de salário? Que benefícios eu quero além do salário?
-                    </p>    
-                        E quando nós falamos em empresas com muitos benefícios, as de TI acabam se destacando, sendo referência no mercado de trabalho. Pensando nisso, nós reunimos os benefícios das 11 empresas âncoras do Programa ENTRA21 - um dos maiores programas de empregabilidade, que busca capacitar gratuitamente na área de tecnologia da informação.
-                    </p>                         
-                        As empresas âncoras são: ambevtech, Central Ailos, Capgemini, Datainfo, FarmáciasAPP, HavanLabs, Philips, Senior, T-Systems, Unifique e Warren. Mas, nessa pesquisa nós vamos apresentar essas empresas através de números distribuídos aleatoriamente.                     
-                        
+                    <br />
+                    Para você que busca uma vaga no mundo do trabalho, na área de Tecnologia da Informação e Comunicação (TIC), o atrativo pode não ser apenas um bom salário, mas também, todos os benefícios oferecidos pela empresa em que você deseja trabalhar!
+                </p><p>    
+                    E se além dos benefícios, você estiver procurando por uma empresa que lhe permita trabalhar na modalidade híbrida ou ainda uma empresa que possibilite, no futuro, você trabalhar em outro país?
+                </p><p>    
+                    A concepção desse projeto partiu da ideia de que o Programa ENTRA21 tem como objetivo a empregabilidade, permitindo que os alunos selecionados para participarem do programa possam ser direcionados e contratados pelas empresas âncoras e, posteriormente, ficarem também à disposição das empresas cotistas. 
+                    Mas, e se o aluno tiver interesse em saber mais sobre os benefícios que podem vir com a oferta de uma das empresas?
+                </p><p>
+                    Ao pensarmos sobre isso, optamos por fazer um levantamento dos benefícios oferecidos pelas empresas âncoras do Programa Entra21: Ambevtech, Central Ailos, Capgemini, Datainfo, FarmáciasAPP, HavanLabs, Philips, Senior, T-Systems, Unifique e Warren, Pesquisamos as informações nos sites e também no Linkedin das empresas. Mas, nessa pesquisa nós vamos apresentar essas empresas através de números distribuídos aleatoriamente.
+                </p><p>    
+                    Para conhecermos o perfil dos alunos do Programa Entra21, as empresas âncoras de seu  interesse e o curso que integram, optamos pela aplicação de um survey contendo 13 perguntas, dentre elas: 
+                </p>
+                        <li> Você é aluno de qual curso do Programa Entra21? </li>
+                        <li> No Programa Entra21, seu curso é: </li>
+                        <li> Suas aulas são em qual período? </li>
+                        <li> Qual a sua faixa etária (idade)?</li>
+                        <li>Em relação ao gênero, como você se identifica?</li>
+                        <li>Você possui alguma deficiência (PcD)? </li>
+                        <li>Você já pesquisou sobre as empresas âncoras do Programa Entra21 e quais benefícios elas oferecem aos seus colaboradores? </li>
+                        <li>Das empresas âncoras do Programa Entra21, escolha 3 que você gostaria de trabalhar quando finalizar seu curso.</li>
+                        <li>Analisando o gráfico abaixo em relação aos benefícios que cada empresa oferece, quais 3 empresas você escolheria para trabalhar quando finalizar seu curso? </li>
+                        <li>Escolha os 3 principais benefícios que considera mais relevantes na empresa que deseja trabalhar: </li>
+                        <li>Em relação à modalidade de trabalho oferecida, qual é a sua preferência? Caso queira, você poderá selecionar mais de uma opção de resposta: </li>
+                        <li> Em relação ao tipo de vaga oferecida, qual é a sua preferência? Caso queira, você poderá selecionar mais de uma opção de resposta: </li>
+                        <li>Qual (is) o(s) outro(s) idioma(s) você possui conhecimento (nível intermediário/fluente)?</li>
+                        <br />
+                    <p>
+                        Ficou curioso sobre o resultado?!
+                        Então, navegue pelas próximas abas…                        
                     </p>
-<video width="320" height="'240" controls="controls" autoplay="autoplay"
-source src = "https://www.youtube.com/watch?v=1fqnXZ7G5k0" type="video/mp4">
-<object data="" widtch="320" heigth="240">
-<embed widtch="320" height="240" src="https://www.youtube.com/watch?v=1fqnXZ7G5k0">
+                    <br /><br />
 
-</object>
-</video>
+                    <br />
+    </div>
 </div>
-</div>
+
 
 {% endblock %}

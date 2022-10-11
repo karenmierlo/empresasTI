@@ -6,7 +6,7 @@ from django.contrib.auth.decorators import login_required
 # @login_required
 def index(request):
 
-    data = "abracadraba "
+    data = " "
     
 
     return render(request, 'index.html', 
