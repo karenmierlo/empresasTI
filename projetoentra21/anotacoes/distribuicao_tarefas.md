@@ -17,5 +17,5 @@
 | Atividades realizadas Sprint8 ✅ | |Realização das reuniões diárias com a equipe | | | | |
 | Atividades realizadas Sprint9 ✅ | |Realização das reuniões diárias com a equipe, Auxílio na construção do código, Discussão com a equipe sobre os dados coletados | | | | |
 | Atividades realizadas Sprint10 ✅| |Realização das reuniões diárias com a equipe, Seleção das informações que integrarão os dashboards, Elaboração da análise dos resultados | | | | |
-| Atividades realizadas Sprint11 ✅| |Realização das reuniões diárias com a equipe | | | | |
-| Atividades a serem realizadas ⚠ | Criação DashBoards dos resultados da pesquisa| Definição do nome do Grupo para o dia de apresentação na Mostra de Talentos  | Construção do código para tratamento dos dados do Questionário | Montagem do script da gravação | Atualização de novos dados para o dashboard e aprimorar o visual | |
+| Atividades realizadas Sprint11 ✅| |Realização das reuniões diárias com a equipe, Definição do nome do Grupo para o dia de apresentação na Mostra de Talentos | | | | |
+| Atividades a serem realizadas ⚠ | Criação DashBoards dos resultados da pesquisa| Reunião pré-apresentação final  | Construção do código para tratamento dos dados do Questionário | Montagem do script da gravação | Atualização de novos dados para o dashboard e aprimorar o visual | |
