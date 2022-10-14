@@ -89,6 +89,8 @@ WSGI_APPLICATION = 'proj.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+SECRET_KEY = '71473a67d1d78c8da953167d9e8e38bd432886c19dc63bede97066c35000'
+
 try:
     DBPASSWD=os.getenv('DBPASSWD')    
 except:
