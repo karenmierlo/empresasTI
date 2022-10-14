@@ -18,4 +18,4 @@ sim: fazer o merge para main e para dev
     heroku login
     heroku git:remote -a empresas-entra21
     git remote -v
-    git push heroku release/1.0.2:maingi
+    git push heroku release/1.0.2:main
