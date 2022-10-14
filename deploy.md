@@ -4,7 +4,7 @@
 3. git add .
 4. git commit -m "nome"
 5. git push (set upstream - copiar e colar)
-6. git heroku release/1.0.x:main
+6. git push heroku release/1.0.x:main
 
 funcionou?
 
@@ -13,3 +13,9 @@ sim: fazer o merge para main e para dev
     git merge release/1.0.x
     git checkout dev
     git merge main
+
+
+    heroku login
+    heroku git:remote -a empresas-entra21
+    git remote -v
+    git push heroku release/1.0.2:maingi
