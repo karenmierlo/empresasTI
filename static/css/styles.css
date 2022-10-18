@@ -1,12 +1,9 @@
-html {
-    font-family: arial;
-    font-size: 16px;
-}
-
 p {
     text-align: justify;
     line-height: 1.5;
     margin: 10px 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
     /*letter-spacing: 1px;*/
 }
 
@@ -17,12 +14,13 @@ li {
 }
 
 body{
-    background-color: #f3f2f7;
+    background-color: #ededed;
     /*font-family:*/
 }
 
-h6 {
+h6,h4,h5 {
     text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 ol {
@@ -62,15 +60,15 @@ ol {
 /*dá a cor as letras quando passa a letra em cima*/
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: rgb(21, 39, 234);
+    color: #2C2F38;
 }
 
 .navbar  {
-    border-bottom: 1.5px solid rgb(18, 2, 90);
+    border-bottom: 1.5px solid #1A73E8;
     margin-bottom: 10px;
     font-weight: bold;
     padding: 0px 15px;
-    background-color: #e8ecf8 !important;
+    background-color: #2C2F38 !important;
 }
 
 /*barra do nome das abas */
@@ -84,7 +82,8 @@ ol {
 .navbar-brand {
     /*font-weight: bold; */
     font-size: 15px;
-    font-family: helvetica;
+    font-family: rockwell;
+    color: rgb(250, 250, 250) !important;
 }
 
 .navbar-brand img {
@@ -93,17 +92,17 @@ ol {
 
 /*barra do nome das abas*/
 .navbar-light .navbar-nav a.nav-link {
-    color: rgb(21, 21, 21);
+    color: rgb(250, 250, 250);
     letter-spacing: 1px;
-    font-family: helvetica;
-    font-size: 16px;
+    font-family: rockwell;
+    font-size: 18px;
     letter-spacing: 0.5px;
     padding: 10px 10px;
 }
 
 /*dá a cor do quadrado quando passa o mouse em cima*/
 .navbar-nav .nav-item a.nav-link:hover {
-    background-color: #f8f9f9;
+    background-color: #ededed;
 }
 
 .bloco {
@@ -292,9 +291,9 @@ ol {
 
 /* Rodapé */
 footer {
-    background-color: #2E2D33;
+    background-color: #2C2F38;
     height: 30px;
-    border-top: 2px solid #202020;
+    border-top: 1.5px solid #1A73E8;
     position:unset;
     padding-left: -20%;
     width:100%;
@@ -316,7 +315,7 @@ footer p {
     text-align: center;
     top: 20%;
     /* position: relative; */
-    font-family: arial;
+    font-family: rockwell;
     font-size: 10px;
 }
 

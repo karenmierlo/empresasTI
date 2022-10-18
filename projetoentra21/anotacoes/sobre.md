@@ -53,6 +53,7 @@ Para isso, o projeto se deu em etapas:
 - DataStudio da percepção dos benefícios:
 
 # Django e Heroku
+- Desenvolvimento das abas sobre o Projeto no Django e Deploy realizado no Heroku.
 
 # Palavras-chave:
 - Candidatos
