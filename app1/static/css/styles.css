@@ -1,7 +1,7 @@
 p {
     text-align: justify;
     line-height: 1.5;
-    margin: 10px 30px;
+    margin: 10px 70px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
     /*letter-spacing: 1px;*/
@@ -14,7 +14,7 @@ li {
 }
 
 body{
-    background-color: #ededed;
+    background-color: #fafafa;
     /*font-family:*/
 }
 
@@ -363,10 +363,10 @@ ul.messages li {
 
 iframe-foxy {
     position: relative;
-    padding-bottom: 93%;
+    padding-bottom: 100%;
     height: 0;
     z-index: 2;
-    max-width: 100%;
+    max-width: 90%;
     display: flex;
     margin: auto;
     justify-content: center;
@@ -374,24 +374,6 @@ iframe-foxy {
     height: auto;
     margin-bottom: 80px;
 }
-
-.beneficios{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-# adriano
-.empresas{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 67%;
-    # adriano 
-}
-
 
 iframe-foxy iframe {
     position: absolute;
@@ -401,13 +383,20 @@ iframe-foxy iframe {
     height: 67%;
 }
 
-.mask {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    background-color: #202124;
-    height: 25px;
+.resizee {
+    padding-bottom: 90%;
+}
+
+.resizea {
+    padding-bottom: 109%;
+}
+
+.resizeb1 {
+    padding-bottom: 109%;
+}
+
+.resizeb2{
+    padding-bottom: 70%;
 }
 
 .dropdown-menu {

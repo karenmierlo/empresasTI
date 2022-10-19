@@ -10,7 +10,6 @@
         <h5 class="card-title text-center">Os entrevistados </h5> <br />       
                 <h6 class="card-title text-center"> Sobre os entrevistados: os alunos | futuros candidatos </h6> 
                     {% csrf_token %}  
-                    {{ dados  }}
                     <p> 
                         E se as empresas âncoras pudessem saber o que o aluno, futuro colaborador, está procurando em termos de benefícios oferecidos pelas empresas?!
                         No processo de seleção já seria um passo à frente, certo? 
@@ -22,8 +21,7 @@
 
                     </p>
                     <br />
-                    <div class = "text-center"> 
-                        <iframe-foxy class="resize">
+                        <iframe-foxy class="resizea">
 
                             <iframe name="Reload" class="desktop"
                                 src="https://datastudio.google.com/embed/reporting/4db99549-6832-42ec-9dc3-7cc227cf725e/page/p_2rw3gxgezc"
@@ -32,13 +30,10 @@
                                 <iframe name="Reload2" class="mobile"
 		                        src="https://datastudio.google.com/embed/reporting/4db99549-6832-42ec-9dc3-7cc227cf725e/page/p_2rw3gxgezc"
 		                        frameborder="0" style="border:0" allowfullscreen></iframe>
-	                        <div class="mask"></div>
                         </iframe-foxy>
-                    </div><br />
+                    </div>
     </div>
 </div>
 
 {% csrf_token %}  
-{{ dados }}
-
 {% endblock %}
