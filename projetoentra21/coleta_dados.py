@@ -1,6 +1,6 @@
 import mysql.connector
 import pandas as pd 
-#import random
+
 
 
 cnx = mysql.connector.connect(
@@ -24,10 +24,12 @@ cur.execute("""
             EMPRESA_PONTUACAO INTEGER NOT NULL
     );
 """)
-# df.groupby(['col1', 'col2']).size()
-#  Tabela de Empresa_G3_V2
+# - Importando planilha google docs
 url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTThFyCgEMcqO55iNcgqoiGTf4f4oYi82xwghHLa4unT3ftUhJ0EguCe9RyrD8EijJI9sHxMR8uxnto/pub?gid=455532436&single=true&output=csv'
 colunas = list(['ID','EMPRESA','BENEFICIO','PONTUACAO'])
+
+# Criando Dataframe vazio onde recebera atravez do laço for, 
+# todos os beneficios das empresas pesquisadas.
 
 df = pd.read_csv(url_or_file)
 
