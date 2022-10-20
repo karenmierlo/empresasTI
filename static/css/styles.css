@@ -1,7 +1,7 @@
 p {
     text-align: justify;
     line-height: 1.5;
-    margin: 10px 70px;
+    margin: 10px 60px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
     /*letter-spacing: 1px;*/
@@ -363,7 +363,6 @@ ul.messages li {
 
 iframe-foxy {
     position: relative;
-    padding-bottom: 100%;
     height: 0;
     z-index: 2;
     max-width: 90%;
@@ -380,23 +379,23 @@ iframe-foxy iframe {
     top: 0;
     left: 0;
     width: 100%;
-    height: 67%;
+    height: 100%;
 }
 
 .resizee {
-    padding-bottom: 90%;
+    padding-bottom: 83%;
 }
 
 .resizea {
-    padding-bottom: 109%;
+    padding-bottom: 82%;
 }
 
 .resizeb1 {
-    padding-bottom: 109%;
+    padding-bottom: 82%;
 }
 
 .resizeb2{
-    padding-bottom: 70%;
+    padding-bottom: 82%;
 }
 
 .dropdown-menu {
@@ -546,7 +545,7 @@ iframe-foxy iframe {
         background: rgb(32 33 36);
         overflow: hidden !important;
         z-index: 1000;
-        top: 94px;
+        top: 53px;
     }
 
     .navbar-brand img {

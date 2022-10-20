@@ -4,6 +4,7 @@
 
 {% block content %}
 
+<div class="container">
 <div class="row">
     <div class="col">        
         <br />
@@ -31,12 +32,12 @@
                         &emsp; 5. Identificação de gênero <br />
                         &emsp; 6. Se possui alguma deficiência (PcD) <br />
                         &emsp; 7. Se já pesquisou sobre as empresas âncoras do Programa Entra21 e quais benefícios que elas oferecem aos seus colaboradores <br />
-                        &emsp; 8. Quais 3 empreas âncoras eles escolheriam para trabalhar quando finalizar o curso <br />
-                        &emsp; 9. Através do gráfico que contém os benefícios que as empresas oferecem, quais 3 empresas eles escolheriam para trabalhar quando finalizar seu curso <br />
+                        &emsp;  8. Quais as 3 empresas âncoras que eles escolheriam para trabalhar quando finalizarem o curso <br />
+                        &emsp; 9. Através do gráfico que contém os benefícios que as empresas oferecem, quais as 3 empresas que eles escolheriam para trabalhar quando finalizarem seu curso <br />
                         &emsp; 10. Os 3 principais benefícios que considera mais relevantes na empresa que deseja trabalhar <br />
                         &emsp; 11. Qual modalidade prefere para trabalhar (presencial, remoto, híbrido) <br />
                         &emsp; 12. Se pretende ser efetivo ou realizar estágio quando for trabalhar <br />
-                        &emsp; 13. Idiomas que consegue se comunicar
+                        &emsp; 13. Idiomas que possui conhecimento
                         </p>
                         <p>
                         Ficou curioso sobre o resultado?!
@@ -47,8 +48,6 @@
                     <br />
     </div>
 </div>
-
-{% csrf_token %}  
-
 </div>
+{% csrf_token %}  
 {% endblock %}

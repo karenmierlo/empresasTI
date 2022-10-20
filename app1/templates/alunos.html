@@ -4,6 +4,7 @@
 
 {% block content %}
 
+<div class="container">
 <div class="row">
     <div class="col">
         <br />        
@@ -17,23 +18,38 @@
                     </p><p>
                         Então, as respostas obtidas permitiram uma visão sobre a diversidade presente no Programa Entra21 (gênero, faixa etária e se há alunos com necessidades especiais). Outro ponto que foi possível observar: se os alunos possuem conhecimento sobre outro idioma. 
                         E quais as empresas de maior interesse dos alunos para trabalhar ao final do Programa Entra21?
-                        Os dashboards apresentados a seguir, demonstram os dados coletados:
-
+                        Os dados coletados sobre o perfil dos alunos são apresentados no dashboard abaixo:
                     </p>
                     <br />
+                    <div class="text-center">
                         <iframe-foxy class="resizea">
 
                             <iframe name="Reload" class="desktop"
                                 src="https://datastudio.google.com/embed/reporting/4db99549-6832-42ec-9dc3-7cc227cf725e/page/p_2rw3gxgezc"
                                 frameborder="0" style="border:0" allowfullscreen></iframe>
-                            
-                                <iframe name="Reload2" class="mobile"
-		                        src="https://datastudio.google.com/embed/reporting/4db99549-6832-42ec-9dc3-7cc227cf725e/page/p_2rw3gxgezc"
-		                        frameborder="0" style="border:0" allowfullscreen></iframe>
                         </iframe-foxy>
                     </div>
+                    <p>
+                        A faixa etária de maior destaque concentra-se entre 15 a 20 anos, seguido por 21 a 25 anos, ou seja, quase 50% dos alunos respondentes do formulário, que integram os diferentes cursos do Programa Entra21, encontram-se entre 15 a 25 anos de idade. A minoria dos respondentes faz parte das faixas etárias de 51 a 60 anos, o que demonstra que mesmo havendo uma preocupação do Programa Entra21 com a diversidade e inclusão, ainda não há paridade ou significativa representatividade de pessoas acima dos 50 anos de idade.</p>
+                    <p>
+                        O gênero predominante é o masculino com 157 alunos respondentes. Esse número representa maciça participação masculina (72%), e de certo modo, ainda reflete a realidade na área de tecnologia. A quantidade de alunas respondentes e de pessoas que identificam-se como não-binários, mulher trans e outros não chegam a representar (27%) do total de respondentes. 
+
+                    </p>
+                    <p>
+                        Quanto aos idiomas, o inglês foi a alternativa de maior destaque, com 152 alunos indicando que possuem conhecimento sobre a língua inglesa, seguida pelo espanhol com 32. É importante ressaltar que 58 alunos assinalaram a resposta “nenhuma das alternativas”, o que pode indicar que as empresas interessadas em contratar os alunos do Programa Entra21, que exijam o conhecimento de um outro idioma, em algum momento, deverão investir na formação ou qualificação de seus futuros colaboradores no que se refere a esse quesito.
+                    </p>
+                    <p>
+                        Quanto às pessoas com deficiência (PCD), 1,4% dos respondentes possuem deficiência. 
+                    </p>
+                    <p>
+                        Em relação aos cursos com maior número de respondentes, destacam-se os cursos de C#,Python e Java. Os cursos de Python e Java foram ofertados nas modalidades presencial e online. Os cursos Suporte de TI e Android apresentaram o menor número de participantes respondentes na pesquisa.
+                    </p>
+                    <p>
+                        Em relação ao período do curso, há certo equilíbrio entre os turnos ofertados. O período vespertino destaca-se com 36,6%, seguido pelo turno noturno com 32,4% e, por fim, o período matutino.
+                    </p>
+                    <br/><br/>
     </div>
 </div>
-
+</div>
 {% csrf_token %}  
 {% endblock %}
