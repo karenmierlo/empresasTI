@@ -5,9 +5,11 @@ import pandas as pd
 def pp(a):
     print('a', end='')
 
-
-#url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQrGR2RwQBQAbt3Mzu0UbgKMGSY1hxXtt8rV1fcLzrwjRy2KBDUaSOoT5EKt-j0t6cxZ0KIz-4O0ZVf/pub?gid=891049362&single=true&output=csv'
+# - Importando planilha google docs
 url_or_file = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQrGR2RwQBQAbt3Mzu0UbgKMGSY1hxXtt8rV1fcLzrwjRy2KBDUaSOoT5EKt-j0t6cxZ0KIz-4O0ZVf/pub?gid=891049362&single=true&output=csv'
+
+# Criando Dataframe vazio onde recebera atravez do laço for, 
+# todas as perguntas com suas respostas das (14) colunas.
 
 df = pd.DataFrame()
 df['Carimbo_de_data_hora'] = ''
@@ -15,6 +17,8 @@ df['Answer'] = ''
 df['Question'] = ''
 df['Questionid'] = ''
 
+# No laço for abaixo percorremos todas as 
+# colunas do CSV adicionando dm df_coluna_by_coluna
 
 for i in range(1, 14):
     colunas = [0, i]
@@ -32,7 +36,9 @@ for i in range(1, 14):
 print(len(df))
 
 pp('b1')
-# teste 
+
+# Abaixo criamos uma codificação para os nomes 
+# de empresas e outros detalhes.
 
 def verifica(base8, empresa):
     pp('b2')
@@ -46,26 +52,27 @@ def verifica(base8, empresa):
 
 pp('b3')
 
-
+# Aqui criamos um dicionário de dados
+# para suprimir/alterar o nome da empresa
 base8 = {
-    'Senior Sistemas': 'Empresa1',
-    'Philips': 'Empresa2',
-    'Ailos': 'Empresa3',
-    'Capgemini': 'Empresa4',
-    'Ambev Tech': 'Empresa5',
-    'Warren': 'Empresa6',
-    'DataInfo': 'Empresa7',
-    'Farmácias App': 'Empresa8',
-    'Havan Labs': 'Empresa9',
-    'T-Systems': 'Empresa10',
-    'Unifique': 'Empresa11'
+    'Senior Sistemas': 'Empresa 1',
+    'Philips': 'Empresa 2',
+    'Ailos': 'Empresa 3',
+    'Capgemini': 'Empresa 4',
+    'Ambev Tech': 'Empresa 5',
+    'Warren': 'Empresa 6',
+    'DataInfo': 'Empresa 7',
+    'Farmácias App': 'Empresa 8',
+    'Havan Labs': 'Empresa 9',
+    'T-Systems': 'Empresa 10',
+    'Unifique': 'Empresa 11'
 }
 
 
 pp('b4')
 
 
-# dataframe New Serializer
+# dataframe Nova Serialização
 dfns = pd.DataFrame()
 
 crb = []
@@ -83,8 +90,7 @@ for index, row in df.iterrows():
         if (row.Questionid == 8):
             print(f'AnswerSeparada:{answerseparada}:')
             ans_code.append(verifica(base8, answerseparada))
-        # elif (row.Questionid == 9):
-        #     ans_code.append(verifica(base9, answerseparada))
+        
         else:
             ans_code.append(answerseparada)
 
@@ -94,7 +100,8 @@ dfns['Question'] = qst
 dfns['Questionid'] = qid
 dfns['Answer'] = ans
 dfns['AnswerCode'] = ans_code
-
+# A linha abaixo é responsável por excluir os espaços em branco após a vírgula nas respostas coletadas.
+dfns['AnswerCode'] = dfns['AnswerCode'].str.strip()
 
 print(dfns.shape)
 
@@ -144,8 +151,7 @@ def insere_valores(inicio, fim):
             RESPOSTA = xresp
             contador = contador + 1
             values.append((CARIMBO, IDRESPOSTA, PERGUNTA, RESPOSTA))
-            # print((inicio,fim,CARIMBO,IDRESPOSTA,PERGUNTA,RESPOSTA))
-
+            
     insert_values = "".join(str(values).strip('[]'))
     sql = (
         f"INSERT INTO PERGUNTAS_TCC (PERGUNTAS_CARIMBO,PERGUNTAS_ID_RESPOSTA,PERGUNTAS_NOME,PERGUNTAS_RESPOSTA) VALUES {insert_values}")
@@ -206,3 +212,4 @@ cur.execute("""
 pp('I')
 
 print(f'Contador Mysql: {cur.fetchone()} ')
+
