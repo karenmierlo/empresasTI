@@ -1,7 +1,7 @@
 p {
     text-align: justify;
     line-height: 1.5;
-    margin: 10px 30px;
+    margin: 10px 60px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
     /*letter-spacing: 1px;*/
@@ -14,7 +14,7 @@ li {
 }
 
 body{
-    background-color: #ededed;
+    background-color: #fafafa;
     /*font-family:*/
 }
 
@@ -363,10 +363,9 @@ ul.messages li {
 
 iframe-foxy {
     position: relative;
-    padding-bottom: 93%;
     height: 0;
     z-index: 2;
-    max-width: 100%;
+    max-width: 90%;
     display: flex;
     margin: auto;
     justify-content: center;
@@ -383,13 +382,20 @@ iframe-foxy iframe {
     height: 100%;
 }
 
-.mask {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    background-color: #202124;
-    height: 25px;
+.resizee {
+    padding-bottom: 83%;
+}
+
+.resizea {
+    padding-bottom: 82%;
+}
+
+.resizeb1 {
+    padding-bottom: 82%;
+}
+
+.resizeb2{
+    padding-bottom: 82%;
 }
 
 .dropdown-menu {
@@ -539,7 +545,7 @@ iframe-foxy iframe {
         background: rgb(32 33 36);
         overflow: hidden !important;
         z-index: 1000;
-        top: 94px;
+        top: 53px;
     }
 
     .navbar-brand img {

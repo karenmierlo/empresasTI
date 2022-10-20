@@ -1,37 +1,8 @@
-p {
-    text-align: justify;
-    line-height: 1.5;
-    margin: 10px 60px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 17px;
-    /*letter-spacing: 1px;*/
-}
+body {
 
-li {
-    text-align: justify;
-    margin: 0px 10px;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: #f5f5f5;
 }
-
-body{
-    background-color: #fafafa;
-    /*font-family:*/
-}
-
-h6,h4,h5 {
-    text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-ol {
-    letter-spacing: 1px;
-    line-height: 1px;
-}
-
-.texto {
-    line-height: 50px;
-}
-
 
 .desktop {
     display: inline-block !important;
@@ -43,12 +14,18 @@ ol {
 
 .card-title {
     font-weight: 600;
-    /*margin-bottom: 30px;
-    text-transform: uppercase;*/
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.texto {
+    text-align: justify;
+    line-height: 31px;
 }
 
 .container-fluid {
     padding: 0;
+
 }
 
 .container-fluid .row {
@@ -57,53 +34,62 @@ ol {
 
 /* Navbar */
 
-/*dá a cor as letras quando passa a letra em cima*/
+
+
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #2C2F38;
+    color: #fff;
 }
 
-.navbar  {
-    border-bottom: 1.5px solid #1A73E8;
-    margin-bottom: 10px;
-    font-weight: bold;
+.navbar {
+    border-bottom: 1px solid #333;
+    margin-bottom: 80px;
     padding: 0px 15px;
-    background-color: #2C2F38 !important;
+    background-color: #202124 !important;
 }
 
-/*barra do nome das abas */
+
+
 .navbar-nav {
     margin: auto;
-        transform: translateX(15px);
+    transform: translateX(15px);
 }
 
-
-/*barra do cantinho esquerdo*/
 .navbar-brand {
-    /*font-weight: bold; */
-    font-size: 15px;
-    font-family: rockwell;
-    color: rgb(250, 250, 250) !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .navbar-brand img {
     width: 250px;
 }
 
-/*barra do nome das abas*/
+
 .navbar-light .navbar-nav a.nav-link {
-    color: rgb(250, 250, 250);
-    letter-spacing: 1px;
-    font-family: rockwell;
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    padding: 10px 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 0;
+    font-weight: 300;
+    font-size: 14px;
+    transition: all .5s ease;
+    letter-spacing: 0.3px;
+    padding: 14px 20px;
 }
 
-/*dá a cor do quadrado quando passa o mouse em cima*/
 .navbar-nav .nav-item a.nav-link:hover {
-    background-color: #ededed;
+    background-color: #28a791;
 }
+
+.navbar-nav .nav-item a.nav-link:hover {
+    background-color: #28a791;
+}
+
+/*.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    background-color: #3b3889;
+    color: #fff;
+}*/
 
 .bloco {
     text-align: right;
@@ -150,7 +136,6 @@ ol {
 
 .dashboard h4 {
     font-size: 20px;
-    
 }
 
 .dashboard span {
@@ -161,8 +146,8 @@ ol {
 
 .dashboard-box {
     float: left;
-    background-color: #2E2D33;
-    color: #2E2D33;
+    background-color: #DFDFDF;
+    color: #FFF;
     padding: 20px;
     box-sizing: border-box;
     height: 80%px;
@@ -198,14 +183,14 @@ ol {
     background-color: #3476e2;
     cursor: pointer;
     display: inline-block;
-    color: rgb(119, 95, 95);
+    color: #FFF;
     padding: 8px;
     border-radius: 5px;
     margin-right: 25px;
 }
 
 .fas.fa-plus {
-    color: rgb(58, 105, 131);
+    color: #FFF;
     margin-right: 10px;
     margin-left: 5px;
 }
@@ -254,12 +239,12 @@ ol {
     height: 50px;
     padding: 0 15px;
     padding-top: 10px;
-    border-bottom: 1px dashed #2E2D33;
+    border-bottom: 1px dashed #CCC;
 }
 
 .task-item.done {
-    background-color: #2E2D33;
-}  
+    background-color: #CCC;
+}
 
 .fas.fa-trash {
     color: #db1e47;
@@ -278,7 +263,7 @@ ol {
 }
 
 .fa-check {
-    color: rgb(68, 150, 28);
+    color: #CCC;
     cursor: pointer;
     margin: 5px;
     font-size: 20px;
@@ -291,12 +276,9 @@ ol {
 
 /* Rodapé */
 footer {
-    background-color: #2C2F38;
-    height: 30px;
-    border-top: 1.5px solid #1A73E8;
-    position:unset;
-    padding-left: -20%;
-    width:100%;
+    background-color: #202124;
+    height: 80px;
+    border-top: 2px solid #202020;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -307,22 +289,14 @@ footer {
     z-index: 1000;
     width: 100%;
     margin-top: 60px;
-
 }
 
 footer p {
     color: #f5f5f5;
     text-align: center;
-    top: 20%;
-    /* position: relative; */
-    font-family: rockwell;
-    font-size: 10px;
+    position: relative;
+    margin-bottom: 0;
 }
-
-img {
-    display: block;
-    margin: 0 auto;
-  }
 
 /* Messages */
 
@@ -363,9 +337,10 @@ ul.messages li {
 
 iframe-foxy {
     position: relative;
+    padding-bottom: 93%;
     height: 0;
     z-index: 2;
-    max-width: 90%;
+    max-width: 100%;
     display: flex;
     margin: auto;
     justify-content: center;
@@ -382,20 +357,13 @@ iframe-foxy iframe {
     height: 100%;
 }
 
-.resizee {
-    padding-bottom: 83%;
-}
-
-.resizea {
-    padding-bottom: 82%;
-}
-
-.resizeb1 {
-    padding-bottom: 82%;
-}
-
-.resizeb2{
-    padding-bottom: 82%;
+.mask {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #202124;
+    height: 25px;
 }
 
 .dropdown-menu {
@@ -545,7 +513,7 @@ iframe-foxy iframe {
         background: rgb(32 33 36);
         overflow: hidden !important;
         z-index: 1000;
-        top: 53px;
+        top: 94px;
     }
 
     .navbar-brand img {
@@ -621,4 +589,73 @@ iframe-foxy iframe {
 footer {
 
     margin-top: 0;
+}
+
+/* High Charts */
+
+.highcharts-figure,
+.highcharts-data-table table {
+    min-width: 310px;
+    max-width: 100%;
+    margin-bottom: 60px;
+}
+
+#container,
+#container2 {
+    height: 400px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.highcharts-data-table table {
+    border-collapse: collapse;
+    border: 1px solid #ebebeb;
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.highcharts-description {
+    text-align: justify;
+    line-height: 31px;
+}
+
+.highcharts-data-table th {
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+    padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+
+.video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
+.m-top {
+    margin-top: 30px;
+}
+
+.m-bottom {
+    margin-bottom: 50px;
 }
