@@ -55,30 +55,18 @@ Para isso, o projeto se deu em etapas:
 - Construção de um formulário com o Google Forms. Perguntas:
 
   1. Curso que o aluno frequenta no programa ENTRA21
-
-  2. Modalidade do curso (presencial, on-line)
-
-  3. Período em que as aulas ocorrem
-
-  4. Idade
-
-  5. Identificação de gênero
-
-  6. Se possui alguma deficiência (PcD)
-
-  7. Se já pesquisou sobre as empresas âncoras do Programa Entra21 e quais benefícios que elas oferecem aos seus colaboradores
-
-  8. Quais as 3 empresas âncoras que eles escolheriam para trabalhar quando finalizarem o curso
-
-  9. Através do gráfico que contém os benefícios que as empresas oferecem, quais as 3 empresas que eles escolheriam para trabalhar quando finalizarem seu curso
-
-  10. Os 3 principais benefícios que considera mais relevantes na empresa que deseja trabalhar
-
-  11. Qual modalidade prefere para trabalhar (presencial, remoto, híbrido)
-
-  22. Se pretende ser efetivo ou realizar estágio quando for trabalhar
-
-  13. Idiomas que possui conhecimento
+  1. Modalidade do curso (presencial, on-line)
+  1. Período em que as aulas ocorrem
+  1. Idade
+  1. Identificação de gênero
+  1. Se possui alguma deficiência (PcD)
+  1. Se já pesquisou sobre as empresas âncoras do Programa Entra21 e quais benefícios que elas oferecem aos seus colaboradores
+  1. Quais as 3 empresas âncoras que eles escolheriam para trabalhar quando finalizarem o curso
+  1. Através do gráfico que contém os benefícios que as empresas oferecem, quais as 3 empresas que eles escolheriam para trabalhar quando finalizarem seu curso
+  1. Os 3 principais benefícios que considera mais relevantes na empresa que deseja trabalhar
+  1. Qual modalidade prefere para trabalhar (presencial, remoto, híbrido)
+  1. Se pretende ser efetivo ou realizar estágio quando for trabalhar
+  1. Idiomas que possui conhecimento
 
 - Distribuição do formulário aos alunos do projeto
 
@@ -92,7 +80,7 @@ Para isso, o projeto se deu em etapas:
 - Construção do site
 
 # Dados Técnicos
-**Linguagens usadas:** Python e Sqlite
+**Linguagens usadas:** Python e SQL
 
 **Bibliotecas usadas:** Pandas
 
