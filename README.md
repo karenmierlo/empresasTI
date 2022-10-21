@@ -26,9 +26,9 @@ Não será divulgado nome de nenhuma empresa. Apenas para o responsável pela me
 Esperando a apresentação! Ansiosos 🤗
 
 **Organização**:
-- pasta 'accounts':
+- pasta 'accounts': django
 - pasta 'app1': códigos do site Heroku, django
-- pasta 'proj':
+- pasta 'proj': pasta para auxilar na compatibilidade entre sistemas operacionais
 - pasta 'projetoentra21': código final do projeto e suas versões testes
 - pasta 'static': arquivos CSS do site
 
@@ -37,8 +37,10 @@ Esperando a apresentação! Ansiosos 🤗
 Este projeto tem como objetivo apresentar dados sobre a percepção e os interesses que os alunos do Programa ENTRA21 têm em relação aos benefícios que as 11 empresas âncoras oferecem aos seus colaboradores.
 
 **Funcionalidade**
-Candidatos: permitir a identificação dos benefícios mais comuns nas empresas âncoras do Entra21.
-Empresas: entender como os candidatos enxergam as empresas e seus benefícios.
+
+- Candidatos: permitir a identificação dos benefícios mais comuns nas empresas âncoras do Entra21.
+- Empresas: entender como os candidatos enxergam as empresas e seus benefícios.
+
 
 Observação: neste projeto, optou-se pelo anonimato dos dados das empresas, logo, elas foram renomeadas aleatoriamente com números
 
@@ -51,19 +53,33 @@ Para isso, o projeto se deu em etapas:
 
 ## Etapa 2: coleta dos dados
 - Construção de um formulário com o Google Forms. Perguntas:
-     1. Curso que o aluno frequenta no programa ENTRA21
+
+  1. Curso que o aluno frequenta no programa ENTRA21
+
   2. Modalidade do curso (presencial, on-line)
+
   3. Período em que as aulas ocorrem
+
   4. Idade
+
   5. Identificação de gênero
+
   6. Se possui alguma deficiência (PcD)
+
   7. Se já pesquisou sobre as empresas âncoras do Programa Entra21 e quais benefícios que elas oferecem aos seus colaboradores
+
   8. Quais as 3 empresas âncoras que eles escolheriam para trabalhar quando finalizarem o curso
+
   9. Através do gráfico que contém os benefícios que as empresas oferecem, quais as 3 empresas que eles escolheriam para trabalhar quando finalizarem seu curso
+
   10. Os 3 principais benefícios que considera mais relevantes na empresa que deseja trabalhar
+
   11. Qual modalidade prefere para trabalhar (presencial, remoto, híbrido)
-  12. Se pretende ser efetivo ou realizar estágio quando for trabalhar
-  13. Idiomas que possui conhecimento 
+
+  22. Se pretende ser efetivo ou realizar estágio quando for trabalhar
+
+  13. Idiomas que possui conhecimento
+
 - Distribuição do formulário aos alunos do projeto
 
 ## Etapa 3: construção da dashboard da percepção dos benefícios
@@ -73,6 +89,7 @@ Para isso, o projeto se deu em etapas:
 
 ## Etapa 4: apresentação dos dados
 - Construção do vídeo
+- Construção do site
 
 # Dados Técnicos
 **Linguagens usadas:** Python e Sqlite
@@ -81,7 +98,7 @@ Para isso, o projeto se deu em etapas:
 
 **DER:** disponível em projetoentra21/anotacoes/DER
 
-**SITE: django e heroku
+**SITE:** django e heroku
 
 # Links Importantes
 - Site do projeto: https://empresas-entra21.herokuapp.com/
@@ -100,9 +117,7 @@ Para isso, o projeto se deu em etapas:
 
 # Distribuição das Tarefas
 
-**Responsabilidades**
-
-:warning: Sujeito à alterações, de acordo com as necessidades :woman_technologist::man_technologist::woman_technologist::man_technologist::woman_technologist: (nosso time lindo :heavy_heart_exclamation:)
+**Responsabilidades** :woman_technologist::man_technologist::woman_technologist::man_technologist::woman_technologist: (nosso time lindo :heavy_heart_exclamation:)
 
 **Tabela de Atribuições**
 
