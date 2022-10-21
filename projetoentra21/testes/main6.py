@@ -20,10 +20,10 @@ import pandas as pd
 
 
 cnx = mysql.connector.connect(
-    host = '3.89.36.150',
-    user = 'e2122g3',
-    password = 'e2122g3@16@ago',
-    database = 'e2122g3'
+    host = '',
+    user = '',
+    password = '',
+    database = ''
     )
 
 cur = cnx.cursor()
