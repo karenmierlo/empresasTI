@@ -115,7 +115,7 @@ ol {
     text-transform: uppercase;
     font-weight: 400;
     padding: 20px;
-    background: #28a791;
+    background: #1A73E8;
     border: none;
     transition: all .5s ease;
     min-width: 220px;
@@ -125,7 +125,7 @@ ol {
 }
 
 .bloco button:hover {
-    background: #3c398a;
+    background: #1A73E8;
 }
 
 .bloco button:focus {
@@ -176,7 +176,7 @@ ol {
 }
 
 #dashboard-lastdays {
-    background-color: #3476e2;
+    background-color: #1A73E8;
 }
 
 #dashboard-done {
@@ -407,7 +407,7 @@ iframe-foxy iframe {
 .dropdown-item:focus,
 .dropdown-item:hover {
 
-    background-color: #28a791;
+    background-color: #1A73E8;
 
 }
 
@@ -559,7 +559,7 @@ iframe-foxy iframe {
         background-color: transparent;
         border: 1px solid transparent;
         border-radius: 0;
-        background: #28a791;
+        background: #1A73E8;
         transition: all ease .5s;
     }
 
@@ -570,7 +570,7 @@ iframe-foxy iframe {
     }
 
     .navbar-toggler:hover {
-        background: #3b3889;
+        background: #1A73E8;
     }
 
     .dropdown-item {
@@ -590,7 +590,7 @@ iframe-foxy iframe {
   
 
     .resize {
-        padding-bottom: 133%;
+        padding-bottom: 83%;
     }
 
     .list-control-container md-checkbox .md-label {
