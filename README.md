@@ -5,12 +5,12 @@ Repositório do trabalho desenvolvido no curso de Análise de Dados do Programa 
 
 | Integrante | Linkedin | Função |
 |---|---|---|
-| Alice dos Santos Mellies | <a href="https://www.linkedin.com/in/alice-mellies-1352051bb/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | Team Developer - Frontend |
-| Christiane Fabíola Momm | <a href="https://www.linkedin.com/in/christiane-fab%C3%ADola-13688526/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | Scrum Master|
+| Alice dos Santos Mellies | <a href="https://www.linkedin.com/in/alice-mellies-1352051bb/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | Team Developer - Dashboards |
+| Christiane Fabíola Momm | <a href="https://www.linkedin.com/in/christiane-fab%C3%ADola-13688526/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | Scrum Master |
 | Fernando Oliveira da Rosa | <a href="https://www.linkedin.com/in/fernando-oliveira-da-rosa-800960151/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | Team Developer - Backend |
-| Karen Godoi van Mierlo | <a href="https://www.linkedin.com/in/karen-godoi-van-mierlo-51a604207/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | Product Owner - Deploy |
-| Saymon Luciano Casas | <a href="https://www.linkedin.com/in/saymon-casas-84109620b/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | Team Developer - Frontend |
-| Tailaine Lemes | <a href="https://www.linkedin.com/in/tailaine-lemes-98435a22a/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | Team Developer - Backend |
+| Karen Godoi van Mierlo | <a href="https://www.linkedin.com/in/karen-godoi-van-mierlo-51a604207/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | Product Owner - Frontend |
+| Saymon Luciano Casas | <a href="https://www.linkedin.com/in/saymon-casas-84109620b/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | Team Developer - Dashboards |
+| Tailaine Lemes | <a href="https://www.linkedin.com/in/tailaine-lemes-98435a22a/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | Team Developer |
 | Adriano Machado | <a href="https://www.linkedin.com/in/xadrak/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | Professor Orientador |
 
  </h5>
