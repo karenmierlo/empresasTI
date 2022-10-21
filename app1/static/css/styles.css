@@ -579,8 +579,8 @@ iframe-foxy iframe {
 }
 
 @media (max-width: 720px) {
-    .desktop {
-        display: none !important;
+    p {
+        margin: 10px 10px;
     }
 
     .mobile {
