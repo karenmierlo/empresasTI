@@ -54,18 +54,19 @@ pp('b3')
 
 # Aqui criamos um dicionário de dados
 # para suprimir/alterar o nome da empresa
+
 base8 = {
-    'Senior Sistemas': 'Empresa 1',
-    'Philips': 'Empresa 2',
-    'Ailos': 'Empresa 3',
-    'Capgemini': 'Empresa 4',
-    'Ambev Tech': 'Empresa 5',
-    'Warren': 'Empresa 6',
-    'DataInfo': 'Empresa 7',
-    'Farmácias App': 'Empresa 8',
-    'Havan Labs': 'Empresa 9',
-    'T-Systems': 'Empresa 10',
-    'Unifique': 'Empresa 11'
+    'Empresa1': 'Empresa 1',
+    'Empresa2': 'Empresa 2',
+    'Empresa3': 'Empresa 3',
+    'Empresa4': 'Empresa 4',
+    'Empresa5': 'Empresa 5',
+    'Empresa6': 'Empresa 6',
+    'Empresa7': 'Empresa 7',
+    'Empresa8': 'Empresa 8',
+    'Empresa9': 'Empresa 9',
+    'Empresa10': 'Empresa 10',
+    'Empresa11': 'Empresa 11'
 }
 
 
