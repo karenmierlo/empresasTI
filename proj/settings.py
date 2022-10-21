@@ -99,7 +99,7 @@ except:
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'e2122g3',
+        'NAME': 'e2',
         'USER': 'e2122g3',
         'PASSWORD': DBPASSWD,
         'HOST': '3.89.36.150',
