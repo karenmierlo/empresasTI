@@ -1,30 +1,53 @@
-# empresasTI
-Repositório do trabalho desenvolvido no curso de Análise de Dados do Programa ENTRA21, turma 2022,pelos integrantes do Grupo 03: 
+#### Este repositorio será para demonstração do conteudo de curso em um appweb encapsulando com iframes todos os dashboards gerados pela equipe nas ferramentas externas como Google Data Studio, PowerBI ou outros...
 
-<h5 align="center">
+Como instalar depois de clonar o repositorio
 
-| Integrante | Linkedin | Função |
-|---|---|---|
-| Alice dos Santos Mellies | <a href="https://www.linkedin.com/in/alice-mellies-1352051bb/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | Team Developer - Frontend |
-| Christiane Fabíola Momm | <a href="https://www.linkedin.com/in/christiane-fab%C3%ADola-13688526/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | Scrum Master - Deploy |
-| Fernando Oliveira da Rosa | <a href="https://www.linkedin.com/in/fernando-oliveira-da-rosa-800960151/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | Team Developer - Backend |
-| Karen Godoi van Mierlo | <a href="https://www.linkedin.com/in/karen-godoi-van-mierlo-51a604207/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | Product Owner - Deploy |
-| Saymon Luciano Casas | <a href="https://www.linkedin.com/in/saymon-casas-84109620b/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | Team Developer - Frontend |
-| Tailaine Lemes | <a href="https://www.linkedin.com/in/tailaine-lemes-98435a22a/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | Team Developer - Backend |
-| Adriano Machado | <a href="https://www.linkedin.com/in/xadrak/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> | Professor Orientador |
+~~~python
+#Criar o virtual enviroment com o comando abaixo
+python -m venv venv
+#carregar o novo virtual enviroment
+pip install -r requirements.txt
 
- </h5>
+python manage.py makemigrations
+python manage.py migrate
 
-Função PO: definir interesses de todos os envolvidos (Stakeholders), funcionalidades do produto e priorizar os itens de Product Backlog.
+python manage.py createsuperuser 
+python manage.py changepassword
 
-**Objetivo**: 
-Apresentar o desenvolvimento da construção do projeto, assim como informações pertinentes ao projeto.
+python manage.py runserver 
+~~~
 
-**Restrições**:
-Este repositório faz parte do Projeto ENTRA21, logo, suas informações seguem as políticas do projeto, sendo vedada a cópia ou distribuição sem prévia autorização.
-Não será divulgado nome de nenhuma empresa. Apenas para o responsável pela mesma, caso seja requisitado.
 
-**Status**:
-Em desenvolvimento
+Sequencia de códigos utilizara para criar ambiente inteiro. 
+(não ha mais necessidade de repetir o abaixo)
 
-**Maiores informações do projeto estão disponíveis na pasta 'anotacoes'**
+~~~python
+(venv) $ django-admin startproject proj .
+(venv) $ django-admin startapp app1 
+
+~~~
+
+Arquivos a editar:
+
+arquivo: django/app1/urls.py
+    -> links para as views
+
+
+arquivo: django/app1/views.py 
+- > funcoes ou views que abrem cada aba
+
+arquivo: django/app1/templates
+- > paginas html de cada funcao chamada
+
+
+arquivo: django/app1/templates/base.html
+-> pagina base com os menus. 
+
+
+
+
+
+
+
+
+
