@@ -587,12 +587,22 @@ iframe-foxy iframe {
         display: inline-block !important;
     }
 
-  
-
-    .resize {
+    .resizee {
         padding-bottom: 83%;
     }
-
+    
+    .resizea {
+        padding-bottom: 82%;
+    }
+    
+    .resizeb1 {
+        padding-bottom: 82%;
+    }
+    
+    .resizeb2{
+        padding-bottom: 82%;
+    }
+    
     .list-control-container md-checkbox .md-label {
         height: 26px;
         line-height: 28px;
