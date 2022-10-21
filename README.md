@@ -26,11 +26,11 @@ Não será divulgado nome de nenhuma empresa. Apenas para o responsável pela me
 Esperando a apresentação! Ansiosos 🤗
 
 **Organização**:
-- pasta 'accounts': django
+- pasta 'accounts': django - pasta para auxilar na compatibilidade entre sistemas operacionais
 - pasta 'app1': códigos do site Heroku, django
 - pasta 'proj': pasta para auxilar na compatibilidade entre sistemas operacionais
 - pasta 'projetoentra21': código final do projeto e suas versões testes
-- pasta 'static': arquivos CSS do site
+- pasta 'static': arquivos CSS do site - pasta para auxilar na compatibilidade entre sistemas operacionais
 
 # Projeto Empresas TI
 
