@@ -2,20 +2,22 @@ import mysql.connector
 import pandas as pd 
 
 
-
+# Conexão com o servidor
 cnx = mysql.connector.connect(
-    host = '3.89.36.150',
-    user = 'e2122g3',
-    password = 'e2122g3@16@ago',
-    database = 'e2122g3'
+    host = '',
+    user = '',
+    password = '',
+    database = ''
     )
 
 cur = cnx.cursor()
 
+# Se a tabela já existir, será deletada
 cur.execute("""
     DROP TABLE IF EXISTS EMPRESA_G3_V2; 
 """)
 
+# Criação do Schema da tabela
 cur.execute("""    
     CREATE TABLE EMPRESA_G3_V2(
             EMPRESA_ID INTEGER PRIMARY KEY AUTO_INCREMENT,
@@ -41,6 +43,7 @@ for index,row in df.iterrows():
     values.append((NOME,TIPO,PONTUACAO))
         
 insert_values = "".join(str(values).strip('[]'))
+# Inserindo os dados na tabela
 sql=(f"INSERT INTO EMPRESA_G3_V2 (EMPRESA_NOME,EMPRESA_TIPO,EMPRESA_PONTUACAO) VALUES {insert_values}")
 
 # print(insert_values)
