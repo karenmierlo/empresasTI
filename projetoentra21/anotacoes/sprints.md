@@ -25,6 +25,6 @@ Início das reuniões:
 
 *Sprint 10* - 03/10 a 07/10: ajustes necessários no código e nos dashboards; estruturação do Django; pesquisa sobre o Highcharts. 
 
-*Sprint 11* - 10/10 a 14/10: ajustes Data Studio, Django, e rascunho roteiro de gravação do vídeo de apresentação.
+*Sprint 11* - 10/10 a 14/10: ajustes Data Studio, Django e elaboração do rascunho do roteiro de gravação do vídeo de apresentação.
 
-*Sprint 12* - 17/10 a 21/10: ajustes finais e teste/gravação do vídeo de apresentação.
+*Sprint 12* - 17/10 a 21/10: ajustes finais e gravação do teaser do projeto, gravação do vídeo de apresentação.
