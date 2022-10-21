@@ -15,8 +15,6 @@ Repositório do trabalho desenvolvido no curso de Análise de Dados do Programa 
 
  </h5>
 
-Função PO: definir interesses de todos os envolvidos (Stakeholders), funcionalidades do produto e priorizar os itens de Product Backlog.
-
 **Objetivo**: 
 Apresentar o desenvolvimento da construção do projeto, assim como informações pertinentes ao projeto.
 
@@ -25,7 +23,14 @@ Este repositório faz parte do Projeto ENTRA21, logo, suas informações seguem 
 Não será divulgado nome de nenhuma empresa. Apenas para o responsável pela mesma, caso seja requisitado.
 
 **Status**:
-Esperando a apresentação
+Esperando a apresentação! Ansiosos 🤗
+
+**Organização**:
+- pasta 'accounts':
+- pasta 'app1': códigos do site Heroku, django
+- pasta 'proj':
+- pasta 'projetoentra21': código final do projeto e suas versões testes
+- pasta 'static': arquivos CSS do site
 
 # Projeto Empresas TI
 
@@ -74,15 +79,12 @@ Para isso, o projeto se deu em etapas:
 
 **Bibliotecas usadas:** Pandas
 
-**DER:** disponível no arquivo 'tabelas_sql.md'
+**DER:** disponível em projetoentra21/anotacoes/DER
+
+**SITE: django e heroku
 
 # Links Importantes
-- Tableau dos benefícios: https://public.tableau.com/views/ProjetoX_16620790151340/Painel1?:language=pt-BR&:display_count=n&:origin=viz_share_link
-- DataStudio dos benefícios: https://datastudio.google.com/reporting/2c5f12b5-5dca-4806-bddb-f92189fcda1c/page/tT40C/edit
-- DataStudio da percepção dos benefícios:
-
-# Django e Heroku
-- Desenvolvimento das abas sobre o Projeto no Django e Deploy realizado no Heroku.
+- Site do projeto: https://empresas-entra21.herokuapp.com/
 
 # Palavras-chave:
 - Candidatos
@@ -119,4 +121,3 @@ Para isso, o projeto se deu em etapas:
 | Atividades realizadas Sprint12 ✅| |Realização das reuniões diárias com a equipe, Revisão do roteiro de gravação, Pitch do projeto 30' publicado no Linkedin |Melhorias e ajustes no código, participação nas gravações dos áudios para o Pitch de 3 min. | Montagem do vídeo - apresentação (3 min) e pitch de 30s -, ajustes finais site (texto, html, css), ajuste github |Atualização de novos dados para o dashboard e aprimorar o visual | |
 | Atividades a serem realizadas ⚠ |Reunião pré-apresentação final| Reunião pré-apresentação final | Reunião pré-apresentação final | Reunião pré-apresentação final |Reunião pré-apresentação final | |
 
-Divisão das sprints e DER do projeto: projetoentra21\anotacoes
