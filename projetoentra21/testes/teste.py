@@ -1,6 +1,7 @@
 total = 5000
 passo = 867
 saldo = total
+#
 
 x, inicio, fim = 0, 0, 0
 lista = []

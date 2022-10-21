@@ -1,3 +1,4 @@
+# Bibliotecas Utilizadas
 import mysql.connector
 import pandas as pd
 
@@ -32,7 +33,7 @@ for i in range(1, 14):
     df = (pd.concat([df, df_coluna_by_coluna], ignore_index=True))
     df['Carimbo_de_data_hora'] = (pd.to_datetime(df['Carimbo_de_data_hora']))
     df['Questionid'] = (pd.to_numeric(df['Questionid']))
-
+# Ponto de verificação
 print(len(df))
 
 pp('b1')
@@ -112,16 +113,21 @@ print(dfns)
 print("ok")
 
 pp('mysql')
+# Conexão com o servidor
 cnx = mysql.connector.connect(
-    host='3.89.36.150',
-    user='e2122g3',
-    password='e2122g3@16@ago',
-    database='e2122g3'
+    host='',
+    user='',
+    password='',
+    database=''
 )
 cur = cnx.cursor()
+
+# Se existir a tabela, ela será deletada
 cur.execute("""
     DROP TABLE IF EXISTS PERGUNTAS_TCC; 
 """)
+
+# Criação do Schema da Tabela
 cur.execute("""    
     CREATE TABLE PERGUNTAS_TCC(
             PERGUNTAS_CARIMBO DATE NOT NULL,
@@ -142,6 +148,8 @@ print(divisoes)
 def insere_valores(inicio, fim):
     contador = 0
     print(inicio, fim)
+    
+    # Criando uma lista
     values = []
     for index, row in dfns[inicio:fim].iterrows():
         for xresp in (list(str.split(row.AnswerCode, sep=','))):
@@ -154,6 +162,7 @@ def insere_valores(inicio, fim):
             values.append((CARIMBO, IDRESPOSTA, PERGUNTA, RESPOSTA))
             
     insert_values = "".join(str(values).strip('[]'))
+    # Inserindo os valores
     sql = (
         f"INSERT INTO PERGUNTAS_TCC (PERGUNTAS_CARIMBO,PERGUNTAS_ID_RESPOSTA,PERGUNTAS_NOME,PERGUNTAS_RESPOSTA) VALUES {insert_values}")
 
@@ -197,12 +206,12 @@ for x, y in lista:
     print(f'*************: {x},{y} = {y-x}')
     insere_valores(x, y)
 
-
+# Conexão com o servidor
 cnx = mysql.connector.connect(
-    host='3.89.36.150',
-    user='e2122g3',
-    password='e2122g3@16@ago',
-    database='e2122g3'
+    host='',
+    user='',
+    password='',
+    database=''
 )
 cur = cnx.cursor()
 pp('H')

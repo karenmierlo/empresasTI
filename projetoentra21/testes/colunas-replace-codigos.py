@@ -2,6 +2,7 @@
 # coding: utf-8
 
 # In[38]:
+#
 
 
 import pandas as pd
@@ -76,17 +77,7 @@ class TrocaWordId(QuestionID,Word):
     dict = Dict(
         'question_id' : 8
         'empresas' : {
-            'Empresa 1': 'Senior Sistemas',
-            'Empresa 2': 'Philips',
-            'Empresa 3': 'Ailos',
-            'Empresa 4': 'Capgemini',
-            'Empresa 5': 'Ambev Tech',
-            'Empresa 6': 'Warren',
-            'Empresa 7': 'DataInfo',
-            'Empresa 8': 'Farmácias App',
-            'Empresa 9': 'Havan Labs',
-            'Empresa 10': 'T-Systems',
-            'Empresa 11': 'Unifique',
+            
         }
         )
     

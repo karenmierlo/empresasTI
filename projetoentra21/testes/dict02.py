@@ -20,9 +20,9 @@ def verifica(base,empresa):
 
         
 base8 = {
-'Senior Sistemas' : 'Empresa1',
-'Philips':'Empresa2',
-'Ailos' : 'Empresa3'
+'A' : 'Empresa1',
+'B':'Empresa2',
+'C' : 'Empresa3'
 }
 
 if empresa == 8: 
