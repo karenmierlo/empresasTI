@@ -1,16 +1,16 @@
 cria_lista = list()
 empresa = dict()
-empresa['Empresa1'] = 'Senior Sistemas',
-empresa['Empresa2'] = 'Philips',
-empresa['Empresa3'] = 'Ailos',
-empresa['Empresa4'] = 'Capgemini',
-empresa['Empresa5'] = 'Ambev Tech',
-empresa['Empresa6'] = 'Warren',
-empresa['Empresa7'] = 'DataInfo',
-empresa['Empresa8'] = 'Farmácias App',
-empresa['Empresa9'] = 'Havan Labs',
-empresa['Empresa10'] = 'T-Systems',
-empresa['Empresa11'] = 'Unifique',
+empresa['Empresa1'] = 'A',
+empresa['Empresa2'] = 'B',
+empresa['Empresa3'] = 'C',
+empresa['Empresa4'] = 'D',
+empresa['Empresa5'] = 'E',
+empresa['Empresa6'] = 'F',
+empresa['Empresa7'] = 'G',
+empresa['Empresa8'] = 'H',
+empresa['Empresa9'] = 'I',
+empresa['Empresa10'] = 'J',
+empresa['Empresa11'] = 'L',
 cria_lista.append(empresa.copy())
 print (cria_lista)
 print(empresa)
