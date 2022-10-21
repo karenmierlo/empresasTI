@@ -54,19 +54,19 @@ Para isso, o projeto se deu em etapas:
 ## Etapa 2: coleta dos dados
 - Construção de um formulário com o Google Forms. Perguntas:
 
-  1.Curso que o aluno frequenta no programa ENTRA21
-  1.Modalidade do curso (presencial, on-line)
-  1.Período em que as aulas ocorrem
-  1.Idade
-  1.Identificação de gênero
-  1.Se possui alguma deficiência (PcD)
-  1.Se já pesquisou sobre as empresas âncoras do Programa Entra21 e quais benefícios que elas oferecem aos seus colaboradores
-  1.Quais as 3 empresas âncoras que eles escolheriam para trabalhar quando finalizarem o curso
-  1.Através do gráfico que contém os benefícios que as empresas oferecem, quais as 3 empresas que eles escolheriam para trabalhar quando finalizarem seu curso
-  1.Os 3 principais benefícios que considera mais relevantes na empresa que deseja trabalhar
-  1.Qual modalidade prefere para trabalhar (presencial, remoto, híbrido)
-  1.Se pretende ser efetivo ou realizar estágio quando for trabalhar
-  1.Idiomas que possui conhecimento
+  1. Curso que o aluno frequenta no programa ENTRA21
+  1. Modalidade do curso (presencial, on-line)
+  1. Período em que as aulas ocorrem
+  1. Idade
+  1. Identificação de gênero
+  1. Se possui alguma deficiência (PcD)
+  1. Se já pesquisou sobre as empresas âncoras do Programa Entra21 e quais benefícios que elas oferecem aos seus colaboradores
+  1. Quais as 3 empresas âncoras que eles escolheriam para trabalhar quando finalizarem o curso
+  1. Através do gráfico que contém os benefícios que as empresas oferecem, quais as 3 empresas que eles escolheriam para trabalhar quando finalizarem seu curso
+  1. Os 3 principais benefícios que considera mais relevantes na empresa que deseja trabalhar
+  1. Qual modalidade prefere para trabalhar (presencial, remoto, híbrido)
+  1. Se pretende ser efetivo ou realizar estágio quando for trabalhar
+  1. Idiomas que possui conhecimento
 
 - Distribuição do formulário aos alunos do projeto
 
