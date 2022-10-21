@@ -51,19 +51,19 @@ Para isso, o projeto se deu em etapas:
 
 ## Etapa 2: coleta dos dados
 - Construção de um formulário com o Google Forms. Perguntas:
-    1) Você é aluno de qual curso do Programa Entra21?
-    2) No Programa Entra21, seu curso é:
-    3) Suas aulas são em qual período?
-    4) Qual a sua faixa etária (idade)?
-    5) Em relação ao gênero, como você se identifica?
-    6) Você possui alguma defiência (PcD)?
-    7) Você já pesquisou sobre as empresas âncoras do Programa Entra21 e quais os benefícios elas oferecem aos seus colaboradores?
-    8) Das empresas âncoras do Programa Entra21, escolha 3 que você gostaria de trabalhar quando finalizar seu curso.
-    9) Analisando o gráfico abaixo em relação aos benefícios que cada empresa oferece, quais 3 empresas você escolheria para trabalhar quando finalizar seu curso? Caso queira consultar essa dash, acesse o link:  https://datastudio.google.com/reporting/2c5f12b5-5dca-4806-bddb-f92189fcda1c/page/p_6ax0hf73xc/edit 
-    10) Escolha os 3 principais benefícios que considera mais relevantes na empresa que deseja trabalhar:
-    11) Em relação à modalidade de trabalho oferecida, qual é a sua preferência? Caso queira, você poderá selecionar mais de uma opção de resposta:
-    12) Em relação ao tipo de vaga oferecida qual é a sua preferência? Caso queira, você poderá selecionar mais de uma opção de resposta:
-    13) Qual (is) o(s) outro(s) idioma(s) você possui conhecimento (nível intermediário/fluente)? Caso queira, você poderá selecionar mais de uma opção de resposta:    
+     1. Curso que o aluno frequenta no programa ENTRA21
+  2. Modalidade do curso (presencial, on-line)
+  3. Período em que as aulas ocorrem
+  4. Idade
+  5. Identificação de gênero
+  6. Se possui alguma deficiência (PcD)
+  7. Se já pesquisou sobre as empresas âncoras do Programa Entra21 e quais benefícios que elas oferecem aos seus colaboradores
+  8. Quais as 3 empresas âncoras que eles escolheriam para trabalhar quando finalizarem o curso
+  9. Através do gráfico que contém os benefícios que as empresas oferecem, quais as 3 empresas que eles escolheriam para trabalhar quando finalizarem seu curso
+  10. Os 3 principais benefícios que considera mais relevantes na empresa que deseja trabalhar
+  11. Qual modalidade prefere para trabalhar (presencial, remoto, híbrido)
+  12. Se pretende ser efetivo ou realizar estágio quando for trabalhar
+  13. Idiomas que possui conhecimento 
 - Distribuição do formulário aos alunos do projeto
 
 ## Etapa 3: construção da dashboard da percepção dos benefícios
