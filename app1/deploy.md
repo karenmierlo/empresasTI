@@ -1,7 +1,7 @@
 1. criar uma branch do release:
     git checkout -b release/1.0.x (a partir da main)
 2. python manage.py collectstatic
-3. git add .
+3. yes
 4. git commit -m "nome"
 5. git push (set upstream - copiar e colar)
 6. git push heroku release/1.0.x:main
