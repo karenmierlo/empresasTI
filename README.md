@@ -47,9 +47,9 @@ Observação: neste projeto, optou-se pelo anonimato dos dados das empresas, log
 Para isso, o projeto se deu em etapas:
 
 ## Etapa 1: os benefícios
-- Coleta dos benefícios que as empresas oferecem em seus sites e páginas do Linkedin
+- Coleta das informações sobre os benefícios que as empresas oferecem em seus sites e páginas do Linkedin
 - Compilação dos dados incluindo a serialização, tratamento dos dados com Python no VSCode e inserção na nuvem
-- Estruturação dos dados dos benefício em uma dashboard com o DataStudio e Tableau
+- Estruturação dos dados sobre os benefício em dashboard com o DataStudio
 
 ## Etapa 2: coleta dos dados
 - Construção de um formulário com o Google Forms. Perguntas:
@@ -122,5 +122,5 @@ Para isso, o projeto se deu em etapas:
 | Atividades realizadas Sprint10 ✅| |Realização das reuniões diárias com a equipe, Seleção das informações que integrarão os dashboards, Elaboração dos primeiros dashboards, Elaboração da análise dos resultados e dos textos para o Django |Serialização e estudo do segundo arquivo.csv, que foi conseguido por meio de uma pesquisa com os alunos do Entra21, Construção do código do tratamento dos dados (mysql) | Ajuda no entendimento para construção das dashs |Análise da fonte de dados, revisão de dashboards | |
 | Atividades realizadas Sprint11 ✅| |Realização das reuniões diárias com a equipe, Definição do nome do Grupo para o dia de apresentação na Mostra de Talentos, revisão Dashboards, Elaboração rascunho do roteiro de apresentação do vídeo | Melhorias e ajustes no código (python) do tratamento dos dados (mysql)| Montagem do site (texto, html, css) |Revisão e ajustes necessários para finalização dos Dashboards, aprimoramento visual| |
 | Atividades realizadas Sprint12 ✅| |Realização das reuniões diárias com a equipe, Revisão do roteiro de gravação, Pitch do projeto 30' publicado no Linkedin |Melhorias e ajustes no código, participação nas gravações dos áudios para o Pitch de 3 min. | Montagem do vídeo - apresentação (3 min) e pitch de 30s -, ajustes finais site (texto, html, css), ajuste github |Atualização de novos dados para o dashboard e aprimorar o visual, participação nas gravações dos áudios para o Pitch de 3 min| |
-| Atividades a serem realizadas ⚠ |Reunião pré-apresentação final| Reunião pré-apresentação final | Reunião pré-apresentação final | Reunião pré-apresentação final |Reunião pré-apresentação final | |
+| Atividades a serem realizadas ⚠ | | Reunião pré-apresentação final | Reunião pré-apresentação final | Reunião pré-apresentação final |Reunião pré-apresentação final | |
 
